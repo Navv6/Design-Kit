@@ -24,6 +24,7 @@ export function AtlasShell({ children, counts }: { children: ReactNode; counts: 
   const pathname = usePathname();
   const isCatalog = pathname === "/";
   const isFeed = pathname === "/feed" || pathname.startsWith("/feed/");
+  const isLab = pathname === "/lab" || pathname === "/lab/";
   const [category, setCategory] = useState("all");
   const [query, setQuery] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
@@ -61,7 +62,7 @@ export function AtlasShell({ children, counts }: { children: ReactNode; counts: 
     return () => window.removeEventListener("keydown", escape);
   }, [compact, menuOpen]);
 
-  if (!isCatalog && !isFeed) return children;
+  if (!isCatalog && !isFeed && !isLab) return children;
 
   const themeLabel = theme === "dark" ? "밝은 테마로 전환" : "어두운 테마로 전환";
   return (
@@ -96,6 +97,7 @@ export function AtlasShell({ children, counts }: { children: ReactNode; counts: 
             <span>페이지 빌더 <span aria-hidden="true">↗</span></span>
             <span className="atlas-nav-status">준비 중</span>
           </Link>
+          <Link href="/lab" aria-current={isLab ? "page" : undefined} onNavigate={closeCompactMenu}>컬러·타입 실험실</Link>
           <div className="atlas-category-nav" hidden={!isCatalog}>
             {categoryGroups.map(group => {
               const options = group.ids.filter(id => counts[id]);
