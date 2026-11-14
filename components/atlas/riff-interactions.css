@@ -1,0 +1,77 @@
+.riff-sample { display: grid; gap: 16px; min-width: 0; width: 100%; padding: clamp(14px, 4vw, 34px); background: #151a24; color: #f5f7fc; line-height: 1.5; }
+.riff-sample, .riff-sample * { box-sizing: border-box; }
+.riff-sample :is(h3,p) { margin: 0; }
+.riff-sample button { border: 1px solid #7488a4; border-radius: 10px; color: #fff; background: #2b3a50; padding: 8px 12px; }
+.riff-sample button:disabled { opacity: .5; cursor: default; }
+.riff-sample button:focus-visible, .sample-stack:focus-visible { outline: 2px solid #f3d183; outline-offset: 3px; }
+.sample-actions { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.riff-carousel-nav { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; padding: 6px; color: #f5f7fc; background: #151a24; border-radius: 10px; }
+.riff-carousel-nav button { border: 1px solid #7488a4; border-radius: 8px; color: #fff; background: #2b3a50; padding: 8px 12px; }
+.riff-carousel-nav button:disabled { opacity: .5; cursor: default; }
+.riff-carousel-nav button:focus-visible { outline: 2px solid #f3d183; outline-offset: 2px; }
+.riff-page-points { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; }
+.riff-page-points button { display: grid; place-items: center; width: 28px; height: 28px; padding: 0; border: 0; border-radius: 8px; color: #f5f7fc; background: transparent; }
+.riff-page-points button::after { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #8494ac; }
+.riff-page-points button[aria-current]::after { background: #d5f394; box-shadow: 0 0 0 3px #d5f39440; }
+.sample-stack { position: relative; min-height: 228px; touch-action: pan-y; user-select: none; }
+.sample-stack-card { position: absolute; inset: 0 9% 26px; display: grid; align-content: end; gap: 6px; padding: 18px; border-radius: 15px; border: 1px solid #ffffff66; background: linear-gradient(145deg,hsl(var(--hue) 56% 38%),#182439); z-index: calc(3 - var(--depth)); transform: translateY(calc(var(--depth) * 12px)) scale(calc(1 - var(--depth) * .065)); transition: transform .36s cubic-bezier(.2,.8,.25,1); }
+.sample-stack-card[hidden] { display: none; }
+.sample-stack { overflow: hidden; cursor: grab; }
+.sample-stack[data-dragging="true"] { cursor: grabbing; }
+.sample-stack-card[data-front="true"] { transform: translateX(var(--drag-offset, 0px)); }
+.sample-stack[data-dragging="true"] .sample-stack-card[data-front="true"] { transition: none; }
+.sample-checkout { max-width: 420px; margin-inline: auto; }
+.sample-device { display: flex; justify-content: space-between; padding: 14px; border-radius: 12px; background: #29364a; }
+.sample-paper-slot { border-top: 5px solid #a2b2c8; overflow: hidden; }
+.sample-paper { margin-inline: 10px; padding: 14px; color: #242717; background: #fff7db; animation: sample-print .45s ease-out both; }
+@keyframes sample-print { from { transform: translateY(-100%); } }
+.sample-drop { display: grid; justify-items: center; gap: 8px; text-align: center; border: 2px dashed #9cabc1; padding: 20px 10px; border-radius: 12px; }
+.sample-drop[data-dragging="true"], .sample-drop[data-outcome="success"] { border-color: #97dfa5; }
+.sample-drop[data-outcome="error"] { border-color: #ff9f96; }
+.sample-hoop { position: relative; width: 58px; height: 62px; border: 3px solid #eb9670; border-radius: 12px 12px 24px 24px; }
+.sample-hoop i { display: none; width: 22px; aspect-ratio: 1; border-radius: 50%; background: #ffc169; position: absolute; left: 15px; bottom: 8px; }
+.sample-upload-result { display: flex; align-items: center; gap: 12px; }
+.sample-upload-result img { width: 72px; height: 72px; object-fit: cover; border-radius: 8px; }
+.sample-drop[data-outcome="success"] .sample-hoop i { display: block; animation: sample-basket .55s ease-out both; }
+@keyframes sample-basket { from { transform: translate(30px,-44px); opacity: 0; } }
+.sample-liquid { position: relative; display: grid; isolation: isolate; grid-template-columns: repeat(var(--tab-count),minmax(0,1fr)); padding: 4px; border-radius: 16px; background: #2b3540; }
+.sample-liquid i { position: absolute; z-index: -1; inset-block: 4px; width: calc((100% - 8px) / var(--tab-count)); left: 4px; translate: calc(var(--tab-index) * 100%); border-radius: 13px; background: #d5f394; transition: translate .32s cubic-bezier(.2,.8,.25,1); }
+.sample-liquid button { padding-inline: 4px; background: transparent; border-color: transparent; overflow-wrap: anywhere; }
+.sample-liquid button[aria-selected="true"] { color: #121a10; }
+.sample-tab-panel,.sample-dock-view { min-height: 135px; padding: 20px; border-radius: 12px; background: #253247; }
+.sample-dock { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.sample-dock button { display: grid; justify-items: center; gap: 3px; transform-origin: bottom; transform: scale(var(--dock-scale)); transition: transform .2s; font-size: 12px; }
+.sample-dock button span { font-size: 20px; }
+.sample-dock button[aria-pressed="true"] { border-color: #d5f394; }
+.sample-trail { position: relative; display: grid; place-items: center; min-height: 220px; overflow: hidden; background: #23314a; border-radius: 12px; }
+.sample-trail-mark { position: absolute; pointer-events: none; width: 62px; aspect-ratio: 1; border: 2px solid #e0e9ff; border-radius: 13px; overflow: hidden; transform: translate(-50%,-50%); background: hsl(var(--trail-color) 62% 54%); animation: sample-trail .8s ease-out both; }
+.sample-trail-mark img,.sample-glitch img { display: block; width: 100%; height: 100%; object-fit: cover; }
+@keyframes sample-trail { from { scale: .55; } to { opacity: 0; scale: 1.12; } }
+.sample-profile { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding: 16px; border-radius: 13px; background: #27324b; }
+.sample-avatar { display: grid; place-items: center; width: 44px; aspect-ratio: 1; border-radius: 50%; font-size: 21px; background: #b9cef1; color: #182941; }
+.sample-profile button { margin-inline-start: auto; }
+.sample-profile-detail { display: grid; width: 100%; grid-template-rows: 0fr; transition: grid-template-rows .25s; visibility: hidden; }
+.sample-profile-detail > div { overflow: hidden; }
+.sample-profile[data-open="true"] .sample-profile-detail { grid-template-rows: 1fr; visibility: visible; }
+.sample-type { display: grid; align-content: center; background: #302843; min-height: 210px; padding: 20px; border-radius: 12px; }
+.sample-type h3 { font-size: clamp(27px,5vw,58px); }
+.sample-type-step { animation: sample-type .3s ease-out both; }
+.sample-step-progress { width: 100%; accent-color: #d5f394; }
+@keyframes sample-type { from { opacity: 0; transform: translateY(9px); letter-spacing: .1em; } }
+.sample-glitch { position: relative; width: 100%; aspect-ratio: 16/9; overflow: hidden; border-radius: 12px; }
+.sample-glitch-layers img { position: absolute; inset: 0; opacity: 0; }
+.sample-glitch-layers img:first-child { clip-path: polygon(0 16%,100% 16%,100% 27%,0 27%,0 49%,100% 49%,100% 57%,0 57%); animation: sample-glitch-a .32s steps(2, end); filter: hue-rotate(55deg); }
+.sample-glitch-layers img:last-child { clip-path: polygon(0 30%,100% 30%,100% 43%,0 43%,0 70%,100% 70%,100% 84%,0 84%); animation: sample-glitch-b .32s steps(2, end); filter: hue-rotate(-55deg); }
+@keyframes sample-glitch-a { 17%, 52% { transform: translateX(12px); opacity: 1; } }
+@keyframes sample-glitch-b { 12%, 63% { transform: translateX(-10px); opacity: .9; } }
+.sample-burst-stage { min-height: 195px; display: grid; place-items: center; position: relative; overflow: hidden; }
+.sample-burst-stage button { z-index: 1; }
+.sample-burst-stage span { position: absolute; pointer-events: none; }
+.sample-burst-stage i { position: absolute; width: 8px; aspect-ratio: 1; border-radius: 50%; background: hsl(var(--spark) 90% 70%); animation: sample-burst .52s ease-out both; }
+@keyframes sample-burst { to { transform: rotate(var(--angle)) translateX(var(--distance)); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .riff-sample *, .riff-sample *::before, .riff-sample *::after { transition-duration: .001ms !important; animation-duration: .001ms !important; }
+  .sample-dock button { transform: none; }
+  .sample-glitch-layers { display: none; }
+  .sample-trail-mark { animation-duration: .8s !important; animation-timing-function: steps(1, end); scale: 1; }
+}

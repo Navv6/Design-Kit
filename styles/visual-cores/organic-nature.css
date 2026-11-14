@@ -1,0 +1,6 @@
+/* VCR-019 · Organic Nature · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="organic-nature"]{--vc-bg:#eee7d8;--vc-fg:#3a4534;--vc-accent:#9caa7c;--vc-action-fg:#12141b;--vc-font:Georgia, serif;background-image:radial-gradient(circle at 88% 20%,#d6d9ad,transparent 43%),linear-gradient(140deg,#f8f3e6,#dfdcc5);}
+.vc-stage[data-core="organic-nature"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border-radius:8% 75% 17% 70%;background:linear-gradient(140deg,#718c64,#b2bd91);transform:rotate(-30deg);}
+.vc-stage[data-core="organic-nature"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border-radius:80% 10% 75% 15%;background:#a4b28b;transform:rotate(16deg);}
+.vc-stage[data-core="organic-nature"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#889c74;}
+.vc-stage[data-core="organic-nature"] .vc-headline{font-weight:500!important;letter-spacing:-.035em!important}.vc-stage[data-core="organic-nature"] .vc-primary{border-radius:30px!important;background:#66795c!important;color:#fff!important}

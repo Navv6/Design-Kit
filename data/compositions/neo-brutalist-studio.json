@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "name": "Creative Studio Landing",
+  "visualCoreId": "VCR-016",
+  "accentOverride": null,
+  "blocks": [
+    {
+      "instanceId": "block-01",
+      "assetId": "LAY-002",
+      "title": "Design beyond the ordinary.",
+      "description": "Human-centered interfaces, meaningful interactions, and ambitious ideas.",
+      "label": "Explore work",
+      "size": "large"
+    },
+    {
+      "instanceId": "block-02",
+      "assetId": "CMP-002",
+      "title": "Built to feel different.",
+      "description": "A reusable component that adapts to your chosen Visual Core.",
+      "label": "FEATURED PROJECT",
+      "size": "normal"
+    },
+    {
+      "instanceId": "block-03",
+      "assetId": "LAY-001",
+      "title": "Selected work",
+      "description": "AI applications · Systems · Interfaces",
+      "label": "EXPLORE",
+      "size": "large"
+    },
+    {
+      "instanceId": "block-04",
+      "assetId": "MOT-003",
+      "title": "Tilt to explore",
+      "description": "Move the pointer over the card.",
+      "label": "INTERACTION",
+      "size": "normal"
+    },
+    {
+      "instanceId": "block-05",
+      "assetId": "CMP-003",
+      "title": "Let’s connect",
+      "description": "A focused action for a clear next step.",
+      "label": "Get in touch",
+      "size": "compact"
+    }
+  ]
+}

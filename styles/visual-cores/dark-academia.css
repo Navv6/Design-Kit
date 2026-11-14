@@ -1,0 +1,6 @@
+/* VCR-017 · Dark Academia · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="dark-academia"]{--vc-bg:#191a15;--vc-fg:#e9dfc5;--vc-accent:#ae8958;--vc-action-fg:#12141b;--vc-font:Georgia, serif;background-image:radial-gradient(circle at 78% 50%,#79603a59,transparent 55%),linear-gradient(110deg,#11150f,#2a241d);}
+.vc-stage[data-core="dark-academia"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border:13px solid #7e6445;background:radial-gradient(circle,#9c855f55,#281b11);box-shadow:0 0 40px #ba8d4640;}
+.vc-stage[data-core="dark-academia"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border:1px solid #ae8958;transform:rotate(14deg);}
+.vc-stage[data-core="dark-academia"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#d2aa77;}
+.vc-stage[data-core="dark-academia"] .vc-headline{font-weight:500!important;letter-spacing:-.025em!important}.vc-stage[data-core="dark-academia"] .vc-primary{border:1px solid #ae8958!important;border-radius:0!important;background:transparent!important;color:#e9dfc5!important}

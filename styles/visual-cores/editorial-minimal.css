@@ -1,0 +1,6 @@
+/* VCR-002 · Editorial Minimal · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="editorial-minimal"]{--vc-bg:#f1ebe1;--vc-fg:#2a2726;--vc-accent:#9e6e5c;--vc-action-fg:#ffffff;--vc-font:Georgia, serif;background-image:linear-gradient(100deg,transparent 64%,#bca99835 64%);}
+.vc-stage[data-core="editorial-minimal"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border:1px solid #816457;transform:rotate(13deg);}
+.vc-stage[data-core="editorial-minimal"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;background:#bea491;filter:sepia(1);}
+.vc-stage[data-core="editorial-minimal"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;border:1px solid #644e46;}
+.vc-stage[data-core="editorial-minimal"] .vc-headline{font-weight:500!important;letter-spacing:-.045em!important}.vc-stage[data-core="editorial-minimal"] .vc-primary{border-radius:0!important}.vc-stage[data-core="editorial-minimal"] .vc-main{width:55%}

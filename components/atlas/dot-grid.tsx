@@ -1,0 +1,2 @@
+'use client';
+export function DotGrid(){return <div style={{height:'100%',minHeight:230,width:'100%',display:'grid',placeItems:'center',borderRadius:12,backgroundColor:'#0d1529',backgroundImage:'radial-gradient(#7380ac77 1px,transparent 1px)',backgroundSize:'19px 19px',maskImage:'radial-gradient(ellipse,black 30%,transparent 80%)'}}><div style={{padding:18,background:'#161f36dd',border:'1px solid #475172',borderRadius:12,color:'#d8e3ff',fontSize:16,fontWeight:750}}>GRID / SYSTEM</div></div>}

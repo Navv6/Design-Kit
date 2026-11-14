@@ -1,0 +1,6 @@
+/* VCR-013 · Glassmorphism · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="glassmorphism"]{--vc-bg:#162246;--vc-fg:#fff;--vc-accent:#85e4fa;--vc-action-fg:#12141b;--vc-font:Arial, sans-serif;background-image:radial-gradient(circle at 75% 25%,#dd60e6,transparent 40%),radial-gradient(circle at 25% 85%,#33d0f2,transparent 43%),linear-gradient(120deg,#182963,#442a83);}
+.vc-stage[data-core="glassmorphism"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border-radius:24px;background:#ffffff24;border:1px solid #ffffff8b;backdrop-filter:blur(15px);box-shadow:0 20px 55px #09163478;transform:rotate(-10deg);}
+.vc-stage[data-core="glassmorphism"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border-radius:50%;background:#a4d8ffbb;filter:blur(1px);}
+.vc-stage[data-core="glassmorphism"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#fff8;}
+.vc-stage[data-core="glassmorphism"] .vc-main{background:#ffffff1a;backdrop-filter:blur(9px);border:1px solid #ffffff5b;border-radius:24px;padding:19px 20px}.vc-stage[data-core="glassmorphism"] .vc-primary{border-radius:20px!important}

@@ -1,0 +1,6 @@
+/* VCR-010 · Frutiger Aero · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="frutiger-aero"]{--vc-bg:#d6f4fb;--vc-fg:#083e5f;--vc-accent:#06a5ba;--vc-action-fg:#12141b;--vc-font:Arial, sans-serif;background-image:linear-gradient(#d5fbff 0%,#bfe9ff 47%,#73d2bf 48%,#c0f8ad 100%);}
+.vc-stage[data-core="frutiger-aero"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border-radius:50%;background:radial-gradient(circle at 35% 25%,#fff,#a8e5ff55 34%,#52c9f899 56%,#e3fffa 90%);box-shadow:inset -10px -18px 24px #178baf55,0 25px 40px #178dae38;}
+.vc-stage[data-core="frutiger-aero"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;background:linear-gradient(#fcffff,#8efad2);border-radius:60% 45% 30% 70%;}
+.vc-stage[data-core="frutiger-aero"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#fff;}
+.vc-stage[data-core="frutiger-aero"] .vc-headline{color:#064465!important;text-shadow:0 1px #fff}.vc-stage[data-core="frutiger-aero"] .vc-primary{border-radius:25px!important;background:linear-gradient(#fff,#54dddc)!important;box-shadow:0 5px 10px #21779e55}

@@ -1,0 +1,159 @@
+[
+  {
+    "slug": "magnetic-player",
+    "title": "Magnetic Player",
+    "description": "커서를 가져가면 음악 플레이어 카드가 펼쳐지고, 벗어나면 다시 접히는 모션 작품입니다.",
+    "sourceTitle": "Magnetic Player · Hijrat",
+    "sourceUrl": "https://www.figma.com/riffs/82709a3f-d316-42f8-a413-00a47a479b63",
+    "sourceImage": "https://www.figma.com/community/post/82709a3f-d316-42f8-a413-00a47a479b63/social-image",
+    "previewImage": "/feed/magnetic-player.png",
+    "assetIds": [
+      "INT-003"
+    ],
+    "previewVideo": "/feed/magnetic-player.webm"
+  },
+  {
+    "slug": "orbit-card-studio",
+    "title": "컬러 스튜디오 · 바람이 머무는 곳",
+    "description": "한곳에 쌓인 카드가 원형으로 펼쳐졌다가 다시 모이는 Figma Motion 작품입니다.",
+    "demoDescription": "세 가지 테마를 제주 여행 페이지에 적용하고, 마음에 드는 팔레트를 CSS로 가져가세요.",
+    "sourceTitle": "Artificial Design · Hijrat",
+    "sourceUrl": "https://www.figma.com/riffs/5fca8363-2256-4c47-8309-eaadf42b3c36",
+    "sourceImage": "https://www.figma.com/community/post/5fca8363-2256-4c47-8309-eaadf42b3c36/social-image",
+    "previewImage": "/feed/artificial-design.png",
+    "assetIds": [
+      "MOT-006"
+    ]
+  },
+  {
+    "slug": "stack-carousel",
+    "title": "스택 캐러셀",
+    "description": "앞뒤로 겹친 카드를 스와이프·버튼·방향키로 넘깁니다.",
+    "sourceTitle": "Card deck · Alejandro Vasquez",
+    "sourceUrl": "https://www.figma.com/riffs/573ca127-c0de-4d04-90c1-f94e8f52d6f5",
+    "sourceImage": "https://www.figma.com/community/post/573ca127-c0de-4d04-90c1-f94e8f52d6f5/social-image",
+    "previewImage": "/feed/stack-carousel.png",
+    "previewVideo": "/feed/stack-carousel.webm",
+    "assetIds": [
+      "INT-004",
+      "CMP-015"
+    ]
+  },
+  {
+    "slug": "receipt-printer",
+    "title": "영수증 출력 전환",
+    "description": "테스트 결제 후 주문 내역이 종이 영수증처럼 나옵니다.",
+    "sourceTitle": "Pay Button Receipt Printer · Jorge Molina",
+    "sourceUrl": "https://www.figma.com/riffs/9080ca49-9d1e-4b1d-828c-1e848a5fa4cb",
+    "sourceImage": "https://www.figma.com/community/post/9080ca49-9d1e-4b1d-828c-1e848a5fa4cb/social-image",
+    "previewImage": "/feed/receipt-printer.png",
+    "previewVideo": "/feed/receipt-printer.webm",
+    "assetIds": [
+      "INT-005"
+    ]
+  },
+  {
+    "slug": "basket-dropzone",
+    "title": "농구 파일 드롭존",
+    "description": "이미지를 선택하거나 놓으면 크기와 파일 종류를 로컬에서 검증합니다.",
+    "sourceTitle": "Basketball Dropzone · Jorge Molina",
+    "sourceUrl": "https://www.figma.com/riffs/dd5564c6-2f98-42a7-8740-afca0fe87c29",
+    "sourceImage": "https://www.figma.com/community/post/dd5564c6-2f98-42a7-8740-afca0fe87c29/social-image",
+    "previewImage": "/feed/basket-dropzone.png",
+    "previewVideo": "/feed/basket-dropzone.webm",
+    "assetIds": [
+      "INT-006"
+    ]
+  },
+  {
+    "slug": "liquid-tabs",
+    "title": "유동형 탭",
+    "description": "늘어나는 표시기로 탭 선택을 알려주고 콘텐츠를 전환합니다.",
+    "sourceTitle": "Liquid Tab Bar · Crafttor",
+    "sourceUrl": "https://www.figma.com/riffs/07c35a71-d36c-44da-b9e4-97c90b5cebd0",
+    "sourceImage": "https://www.figma.com/community/post/07c35a71-d36c-44da-b9e4-97c90b5cebd0/social-image",
+    "previewImage": "/feed/liquid-tabs.png",
+    "previewVideo": "/feed/liquid-tabs.webm",
+    "assetIds": [
+      "INT-007"
+    ]
+  },
+  {
+    "slug": "magnifying-dock",
+    "title": "확대형 도크",
+    "description": "가리키거나 초점을 맞춘 도구 주변이 확대되고 선택한 패널이 열립니다.",
+    "sourceTitle": "AI Tool Dock · Hijrat",
+    "sourceUrl": "https://www.figma.com/riffs/bdefa2ba-16df-4bc6-8fb8-b1eabf96a742",
+    "sourceImage": "https://www.figma.com/community/post/bdefa2ba-16df-4bc6-8fb8-b1eabf96a742/social-image",
+    "previewImage": "/feed/magnifying-dock.png",
+    "previewVideo": "/feed/magnifying-dock.webm",
+    "assetIds": [
+      "INT-008"
+    ]
+  },
+  {
+    "slug": "cursor-trail",
+    "title": "포인터 이미지 잔상",
+    "description": "포인터 경로에 작은 이미지가 남았다 사라집니다.",
+    "sourceTitle": "Make Cursor Magic · Hijrat",
+    "sourceUrl": "https://www.figma.com/riffs/5f08f8b2-96ea-4f90-908e-ec00bbf8c658",
+    "sourceImage": "https://www.figma.com/community/post/5f08f8b2-96ea-4f90-908e-ec00bbf8c658/social-image",
+    "previewImage": "/feed/cursor-trail.png",
+    "previewVideo": "/feed/cursor-trail.webm",
+    "assetIds": [
+      "MOT-007"
+    ]
+  },
+  {
+    "slug": "profile-expansion",
+    "title": "프로필 카드 펼침",
+    "description": "카드 안에서 소개를 펼치고 접습니다.",
+    "sourceTitle": "Animated Profile Card · Hardik Gondhiya",
+    "sourceUrl": "https://www.figma.com/riffs/b5a2a0ca-8bb2-4597-8a90-da7254caa598",
+    "sourceImage": "https://www.figma.com/community/post/b5a2a0ca-8bb2-4597-8a90-da7254caa598/social-image",
+    "previewImage": "/feed/profile-expansion.png",
+    "previewVideo": "/feed/profile-expansion.webm",
+    "assetIds": [
+      "INT-009"
+    ]
+  },
+  {
+    "slug": "kinetic-steps",
+    "title": "단계별 타이포그래피",
+    "description": "이전·다음으로 단계를 선택하면 제목과 설명이 전환됩니다.",
+    "sourceTitle": "Think. Design. Repeat. · Hijrat",
+    "sourceUrl": "https://www.figma.com/riffs/d5331915-ec7f-4f0c-aa51-6d53459d3f4e",
+    "sourceImage": "https://www.figma.com/community/post/d5331915-ec7f-4f0c-aa51-6d53459d3f4e/social-image",
+    "previewImage": "/feed/kinetic-steps.png",
+    "previewVideo": "/feed/kinetic-steps.webm",
+    "assetIds": [
+      "MOT-008"
+    ]
+  },
+  {
+    "slug": "image-glitch",
+    "title": "이미지 글리치 전환",
+    "description": "이미지 교체 시 짧은 색조 분리와 위치 어긋남을 보여줍니다.",
+    "sourceTitle": "Glitch Effect Animation · Hardik Gondhiya",
+    "sourceUrl": "https://www.figma.com/riffs/1bc309d2-a7fc-4072-ac6c-0bdaa0fe255a",
+    "sourceImage": "https://www.figma.com/community/post/1bc309d2-a7fc-4072-ac6c-0bdaa0fe255a/social-image",
+    "previewImage": "/feed/image-glitch.png",
+    "previewVideo": "/feed/image-glitch.webm",
+    "assetIds": [
+      "MOT-009"
+    ]
+  },
+  {
+    "slug": "popcorn-burst",
+    "title": "버튼 파티클 반응",
+    "description": "완료 상태가 되면 버튼 주변에 입자가 퍼집니다.",
+    "sourceTitle": "Popcorn Explosion Button · Nastaran Jamali",
+    "sourceUrl": "https://www.figma.com/riffs/141badb6-7faa-4572-b2de-df29b3782a95",
+    "sourceImage": "https://www.figma.com/community/post/141badb6-7faa-4572-b2de-df29b3782a95/social-image",
+    "previewImage": "/feed/popcorn-burst.png",
+    "previewVideo": "/feed/popcorn-burst.webm",
+    "assetIds": [
+      "MOT-010"
+    ]
+  }
+]

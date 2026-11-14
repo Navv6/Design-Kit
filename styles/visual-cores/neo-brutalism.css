@@ -1,0 +1,6 @@
+/* VCR-016 · Neo Brutalism · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="neo-brutalism"]{--vc-bg:#ffed77;--vc-fg:#101010;--vc-accent:#f56c74;--vc-action-fg:#12141b;--vc-font:Arial Black, Arial, sans-serif;background-image:repeating-linear-gradient(140deg,transparent 0 30px,#f9c95533 32px 36px);}
+.vc-stage[data-core="neo-brutalism"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;background:#f56c74;border:5px solid #101010;box-shadow:16px 16px 0 #101010;transform:rotate(-12deg);}
+.vc-stage[data-core="neo-brutalism"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;background:#6cccef;border:5px solid #101010;box-shadow:9px 9px 0 #101010;transform:rotate(14deg);}
+.vc-stage[data-core="neo-brutalism"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#101010;}
+.vc-stage[data-core="neo-brutalism"] .vc-headline{text-transform:uppercase;letter-spacing:-.09em!important}.vc-stage[data-core="neo-brutalism"] .vc-primary{border:3px solid #101010!important;box-shadow:5px 5px 0 #101010;border-radius:0!important}

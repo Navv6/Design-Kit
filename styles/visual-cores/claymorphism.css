@@ -1,0 +1,6 @@
+/* VCR-015 · Claymorphism · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="claymorphism"]{--vc-bg:#f7ebdf;--vc-fg:#503f58;--vc-accent:#ea829c;--vc-action-fg:#12141b;--vc-font:Arial, sans-serif;background-image:radial-gradient(circle at 84% 30%,#ffd8ca,transparent 44%),linear-gradient(130deg,#f8e5de,#d9d9ff);}
+.vc-stage[data-core="claymorphism"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border-radius:34%;background:#ffafbd;box-shadow:inset -16px -16px 25px #d46d8f,inset 16px 15px 25px #ffd7df,14px 19px 25px #cb88a966;transform:rotate(14deg);}
+.vc-stage[data-core="claymorphism"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border-radius:50%;background:#c7b5ff;box-shadow:inset -12px -12px 25px #9a8ad1,inset 12px 10px 24px #ebdfff;}
+.vc-stage[data-core="claymorphism"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#fff;}
+.vc-stage[data-core="claymorphism"] .vc-primary{border-radius:40px!important;box-shadow:inset -3px -4px 8px #d47591,3px 6px 9px #d48ba377}.vc-stage[data-core="claymorphism"] .vc-headline{font-weight:900!important}

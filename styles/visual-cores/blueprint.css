@@ -1,0 +1,6 @@
+/* VCR-004 · Blueprint System · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="blueprint"]{--vc-bg:#0d2849;--vc-fg:#e0f4ff;--vc-accent:#63cbff;--vc-action-fg:#12141b;--vc-font:Consolas, monospace;background-image:linear-gradient(#63cbff27 1px,transparent 1px),linear-gradient(90deg,#63cbff27 1px,transparent 1px);background-size:19px 19px;}
+.vc-stage[data-core="blueprint"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border:2px solid #9de6ff;border-radius:50%;}
+.vc-stage[data-core="blueprint"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border:1px dashed #72d1ff;transform:rotate(45deg);}
+.vc-stage[data-core="blueprint"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#63cbff;}
+.vc-stage[data-core="blueprint"] .vc-headline{text-transform:uppercase;letter-spacing:-.05em!important}.vc-stage[data-core="blueprint"] .vc-primary{border:1px solid #7fd5ff!important;background:transparent!important;color:#c4f5ff!important}

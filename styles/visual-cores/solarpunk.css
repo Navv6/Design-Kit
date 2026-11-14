@@ -1,0 +1,6 @@
+/* VCR-018 · Solarpunk · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="solarpunk"]{--vc-bg:#eff6d8;--vc-fg:#173e29;--vc-accent:#5c9c59;--vc-action-fg:#12141b;--vc-font:Arial, sans-serif;background-image:radial-gradient(circle at 78% 20%,#fffccf,transparent 45%),linear-gradient(145deg,#f3f9de,#a5d9a6);}
+.vc-stage[data-core="solarpunk"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border-radius:50% 0 50% 0;background:linear-gradient(135deg,#e9ffd4,#6dba69);transform:rotate(30deg);box-shadow:20px 20px 0 #b7e5a1;}
+.vc-stage[data-core="solarpunk"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border:11px solid #398657;border-radius:50%;}
+.vc-stage[data-core="solarpunk"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#ffe8ad;}
+.vc-stage[data-core="solarpunk"] .vc-headline{font-weight:900!important}.vc-stage[data-core="solarpunk"] .vc-primary{border-radius:40px!important}

@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "availableBlocks": [
+    {
+      "id": "LAY-002",
+      "name": "Split Hero",
+      "group": "Sections",
+      "description": "메인 헤드라인과 콜투액션",
+      "heavy": false,
+      "defaults": {
+        "title": "Design beyond the ordinary.",
+        "description": "Human-centered interfaces, meaningful interactions, and ambitious ideas.",
+        "label": "Explore work",
+        "size": "large"
+      }
+    },
+    {
+      "id": "CMP-002",
+      "name": "Glass Card",
+      "group": "UI",
+      "description": "반투명 프로젝트 소개 카드",
+      "heavy": false,
+      "defaults": {
+        "title": "Built to feel different.",
+        "description": "A reusable component that adapts to your chosen Visual Core.",
+        "label": "FEATURED PROJECT",
+        "size": "normal"
+      }
+    },
+    {
+      "id": "LAY-001",
+      "name": "Bento Grid",
+      "group": "Sections",
+      "description": "정보 중심의 벤토 그리드",
+      "heavy": false,
+      "defaults": {
+        "title": "Selected work",
+        "description": "AI applications · Systems · Interfaces",
+        "label": "EXPLORE",
+        "size": "large"
+      }
+    },
+    {
+      "id": "TYP-001",
+      "name": "Gradient Heading",
+      "group": "UI",
+      "description": "그라디언트 헤드라인",
+      "heavy": false,
+      "defaults": {
+        "title": "Ideas into experiences.",
+        "description": "Impactful typography with a careful visual hierarchy.",
+        "label": "TYPOGRAPHY",
+        "size": "normal"
+      }
+    },
+    {
+      "id": "MOT-001",
+      "name": "Magnetic Button",
+      "group": "Motion",
+      "description": "커서 추적 버튼",
+      "heavy": false,
+      "defaults": {
+        "title": "Explore project",
+        "description": "Hover to feel the response.",
+        "label": "Explore project",
+        "size": "compact"
+      }
+    },
+    {
+      "id": "CMP-003",
+      "name": "Gradient Action",
+      "group": "UI",
+      "description": "메인 CTA 버튼",
+      "heavy": false,
+      "defaults": {
+        "title": "Let’s connect",
+        "description": "A focused action for a clear next step.",
+        "label": "Get in touch",
+        "size": "compact"
+      }
+    },
+    {
+      "id": "MOT-002",
+      "name": "Scroll Reveal",
+      "group": "Motion",
+      "description": "스크롤 진입 등장",
+      "heavy": false,
+      "defaults": {
+        "title": "Reveal on entry",
+        "description": "An animated section that appears as you scroll.",
+        "label": "SCROLL",
+        "size": "normal"
+      }
+    },
+    {
+      "id": "MOT-003",
+      "name": "Tilt Card",
+      "group": "Motion",
+      "description": "포인터 3D 틸트",
+      "heavy": false,
+      "defaults": {
+        "title": "Tilt to explore",
+        "description": "Move the pointer over the card.",
+        "label": "INTERACTION",
+        "size": "normal"
+      }
+    },
+    {
+      "id": "MOT-004",
+      "name": "Animated Counter",
+      "group": "Data",
+      "description": "숫자 카운터 애니메이션",
+      "heavy": false,
+      "defaults": {
+        "title": "Real-world impact",
+        "description": "Animated metrics for key achievements.",
+        "label": "DATA",
+        "size": "normal"
+      }
+    },
+    {
+      "id": "DAT-001",
+      "name": "Sparkline Chart",
+      "group": "Data",
+      "description": "트렌드 라인 차트",
+      "heavy": false,
+      "defaults": {
+        "title": "Growth overview",
+        "description": "Small chart for a quick metric read.",
+        "label": "ANALYTICS",
+        "size": "normal"
+      }
+    },
+    {
+      "id": "BG-001",
+      "name": "Aurora Background",
+      "group": "3D & FX",
+      "description": "움직이는 오로라 배경",
+      "heavy": false,
+      "defaults": {
+        "title": "Beyond the surface",
+        "description": "An atmospheric background layer.",
+        "label": "BACKGROUND",
+        "size": "large"
+      }
+    },
+    {
+      "id": "LAY-003",
+      "name": "Vertical Timeline",
+      "group": "Sections",
+      "description": "경력·프로세스 타임라인",
+      "heavy": false,
+      "defaults": {
+        "title": "The journey",
+        "description": "Milestones, progress and lessons.",
+        "label": "TIMELINE",
+        "size": "normal"
+      }
+    },
+    {
+      "id": "3D-001",
+      "name": "Particle Field",
+      "group": "3D & FX",
+      "description": "Three.js 파티클 장면",
+      "heavy": true,
+      "defaults": {
+        "title": "Particle universe",
+        "description": "An interactive R3F scene; loaded only when in view.",
+        "label": "WEBGL",
+        "size": "large"
+      }
+    },
+    {
+      "id": "3D-002",
+      "name": "Torus Knot",
+      "group": "3D & FX",
+      "description": "3D 회전 토러스 모델",
+      "heavy": true,
+      "defaults": {
+        "title": "Form in motion",
+        "description": "Drag to rotate the rendered object.",
+        "label": "3D OBJECT",
+        "size": "large"
+      }
+    },
+    {
+      "id": "SHD-001",
+      "name": "Liquid Shader",
+      "group": "3D & FX",
+      "description": "GLSL 컬러 셰이더",
+      "heavy": true,
+      "defaults": {
+        "title": "Liquid light",
+        "description": "GPU shader experiment with soft flowing color.",
+        "label": "GLSL",
+        "size": "large"
+      }
+    }
+  ],
+  "visualCores": [
+    {
+      "id": "VCR-001",
+      "name": "Swiss Grid",
+      "slug": "swiss-grid",
+      "palette": {
+        "background": "#f3f2eb",
+        "foreground": "#191919",
+        "accent": "#f04b35"
+      },
+      "font": "IBM Plex Sans, Arial, sans-serif"
+    },
+    {
+      "id": "VCR-002",
+      "name": "Editorial Minimal",
+      "slug": "editorial-minimal",
+      "palette": {
+        "background": "#f1ebe1",
+        "foreground": "#2a2726",
+        "accent": "#9e6e5c"
+      },
+      "font": "Georgia, serif"
+    },
+    {
+      "id": "VCR-003",
+      "name": "Quiet Luxury",
+      "slug": "quiet-luxury",
+      "palette": {
+        "background": "#e7e1d8",
+        "foreground": "#252620",
+        "accent": "#88775f"
+      },
+      "font": "Georgia, serif"
+    },
+    {
+      "id": "VCR-004",
+      "name": "Blueprint System",
+      "slug": "blueprint",
+      "palette": {
+        "background": "#0d2849",
+        "foreground": "#e0f4ff",
+        "accent": "#63cbff"
+      },
+      "font": "Consolas, monospace"
+    },
+    {
+      "id": "VCR-005",
+      "name": "Cyberpunk",
+      "slug": "cyberpunk",
+      "palette": {
+        "background": "#080d19",
+        "foreground": "#f0feff",
+        "accent": "#ff3cb1"
+      },
+      "font": "Arial, sans-serif"
+    },
+    {
+      "id": "VCR-006",
+      "name": "Cyber Minimal",
+      "slug": "cyber-minimal",
+      "palette": {
+        "background": "#101822",
+        "foreground": "#ebf8fb",
+        "accent": "#4de5cf"
+      },
+      "font": "Arial, sans-serif"
+    },
+    {
+      "id": "VCR-007",
+      "name": "Liquid Chrome",
+      "slug": "liquid-chrome",
+      "palette": {
+        "background": "#15131f",
+        "foreground": "#f9f5fc",
+        "accent": "#b7a8ff"
+      },
+      "font": "Arial, sans-serif"
+    },
+    {
+      "id": "VCR-008",
+      "name": "Retro Terminal",
+      "slug": "retro-terminal",
+      "palette": {
+        "background": "#09140d",
+        "foreground": "#a9f7a7",
+        "accent": "#6fe89c"
+      },
+      "font": "Consolas, monospace"
+    },
+    {
+      "id": "VCR-009",
+      "name": "Y2K Pop",
+      "slug": "y2k",
+      "palette": {
+        "background": "#f4e9ff",
+        "foreground": "#2b1852",
+        "accent": "#eb58df"
+      },
+      "font": "Arial, sans-serif"
+    },
+    {
+      "id": "VCR-010",
+      "name": "Frutiger Aero",
+      "slug": "frutiger-aero",
+      "palette": {
+        "background": "#d6f4fb",
+        "foreground": "#083e5f",
+        "accent": "#06a5ba"
+      },
+      "font": "Arial, sans-serif"
+    },
+    {
+      "id": "VCR-011",
+      "name": "Vaporwave",
+      "slug": "vaporwave",
+      "palette": {
+        "background": "#251744",
+        "foreground": "#fce4ff",
+        "accent": "#f888c5"
+      },
+      "font": "Arial, sans-serif"
+    },
+    {
+      "id": "VCR-012",
+      "name": "Memphis Pop",
+      "slug": "memphis-pop",
+      "palette": {
+        "background": "#fff1c5",
+        "foreground": "#28153c",
+        "accent": "#ff6359"
+      },
+      "font": "Arial, sans-serif"
+    },
+    {
+      "id": "VCR-013",
+      "name": "Glassmorphism",
+      "slug": "glassmorphism",
+      "palette": {
+        "background": "#162246",
+        "foreground": "#fff",
+        "accent": "#85e4fa"
+      },
+      "font": "Arial, sans-serif"
+    },
+    {
+      "id": "VCR-014",
+      "name": "Neumorphism",
+      "slug": "neumorphism",
+      "palette": {
+        "background": "#e4e9f3",
+        "foreground": "#344765",
+        "accent": "#6781e7"
+      },
+      "font": "Arial, sans-serif"
+    },
+    {
+      "id": "VCR-015",
+      "name": "Claymorphism",
+      "slug": "claymorphism",
+      "palette": {
+        "background": "#f7ebdf",
+        "foreground": "#503f58",
+        "accent": "#ea829c"
+      },
+      "font": "Arial, sans-serif"
+    },
+    {
+      "id": "VCR-016",
+      "name": "Neo Brutalism",
+      "slug": "neo-brutalism",
+      "palette": {
+        "background": "#ffed77",
+        "foreground": "#101010",
+        "accent": "#f56c74"
+      },
+      "font": "Arial Black, Arial, sans-serif"
+    },
+    {
+      "id": "VCR-017",
+      "name": "Dark Academia",
+      "slug": "dark-academia",
+      "palette": {
+        "background": "#191a15",
+        "foreground": "#e9dfc5",
+        "accent": "#ae8958"
+      },
+      "font": "Georgia, serif"
+    },
+    {
+      "id": "VCR-018",
+      "name": "Solarpunk",
+      "slug": "solarpunk",
+      "palette": {
+        "background": "#eff6d8",
+        "foreground": "#173e29",
+        "accent": "#5c9c59"
+      },
+      "font": "Arial, sans-serif"
+    },
+    {
+      "id": "VCR-019",
+      "name": "Organic Nature",
+      "slug": "organic-nature",
+      "palette": {
+        "background": "#eee7d8",
+        "foreground": "#3a4534",
+        "accent": "#9caa7c"
+      },
+      "font": "Georgia, serif"
+    },
+    {
+      "id": "VCR-020",
+      "name": "Dreamcore",
+      "slug": "dreamcore",
+      "palette": {
+        "background": "#211e39",
+        "foreground": "#fff1fc",
+        "accent": "#ebaee7"
+      },
+      "font": "Georgia, serif"
+    }
+  ]
+}

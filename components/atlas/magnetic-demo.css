@@ -1,0 +1,20 @@
+.magnetic-demo { background: #101010; color: #f5f5f5; padding: 16px; }
+.magnetic-stage { position: relative; display: grid; place-items: center; min-height: 460px; container-type: inline-size; overflow: hidden; }
+.magnetic-cards { display: contents; }
+.magnetic-tile { position: absolute; width: clamp(65px, 20cqi, 116px); aspect-ratio: 1; display: grid; place-items: center; text-align: left; padding: 10px; border: 1px solid #ffffff30; border-radius: 15px; background: linear-gradient(130deg,#383838,#191919); font-size: clamp(12px, 3cqi, 20px); font-weight: 850; line-height: 1.05; overflow: hidden; transform: scale(.65); opacity: 0; transition: transform .65s cubic-bezier(.2,1.35,.4,1), opacity .3s; }
+.magnetic-stage[data-expanded="true"] .magnetic-tile { opacity: 1; transform: rotate(var(--angle)) translateX(clamp(90px,32cqi,172px)) rotate(var(--counter-angle)) rotate(var(--tilt)); }
+.magnetic-tile-0,.magnetic-tile-4 { background: #16d969; color: #06190e; }
+.magnetic-tile-1,.magnetic-tile-5 { background: repeating-linear-gradient(125deg,#174b35 0 12px,#376d50 12px 20px,#102a21 20px 29px); }
+.magnetic-tile-2 { background: radial-gradient(circle at 20% 20%,#d0fbb5,#1e5035 60%,#10241a); color: #092014; }
+.magnetic-tile:not(.magnetic-tile-0,.magnetic-tile-2,.magnetic-tile-4) { color: #f5f5f5; }
+.magnetic-tile[aria-pressed="true"] { border-color: #abf8bf; box-shadow: inset 0 0 0 1px #abf8bf; }
+.magnetic-tile:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.magnetic-center { z-index: 1; width: clamp(76px,24cqi,128px); aspect-ratio: 1; border: 1px solid #ffffff45; border-radius: 17px; background: linear-gradient(#4b4b4b,#1a1a1a); color: white; box-shadow: 0 14px 30px #0008; padding: 20px; }
+.magnetic-wave { display: flex; align-items: center; justify-content: center; gap: 5px; height: 100%; }
+.magnetic-wave i { width: 6px; border-radius: 5px; background: #f2f2ec; animation: magnetic-pulse .7s ease-in-out infinite alternate; }
+.magnetic-stage[data-playing="false"] .magnetic-wave i { animation-play-state: paused; }
+@keyframes magnetic-pulse { to { transform: scaleY(.35); } }
+.magnetic-controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; justify-content: space-between; font-size: 13px; }
+.magnetic-controls button { background: #292929; color: white; border: 1px solid #666; border-radius: 7px; padding: 7px 10px; }
+.magnetic-note { font-size: 12px; color: #bcbcbc; margin: 14px 0 0; }
+@media(prefers-reduced-motion:reduce) { .magnetic-tile { transition: none; } .magnetic-wave i { animation: none; } }

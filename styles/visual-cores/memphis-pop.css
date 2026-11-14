@@ -1,0 +1,6 @@
+/* VCR-012 · Memphis Pop · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="memphis-pop"]{--vc-bg:#fff1c5;--vc-fg:#28153c;--vc-accent:#ff6359;--vc-action-fg:#12141b;--vc-font:Arial, sans-serif;background-image:radial-gradient(#ff7167 2px,transparent 3px),linear-gradient(130deg,#fff0bb,#ffe3e9);background-size:24px 24px,100% 100%;}
+.vc-stage[data-core="memphis-pop"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;background:#ffaa69;border:4px solid #312142;border-radius:50%;}
+.vc-stage[data-core="memphis-pop"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;background:#61dcc8;border:4px solid #312142;transform:rotate(23deg);}
+.vc-stage[data-core="memphis-pop"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#fd6895;}
+.vc-stage[data-core="memphis-pop"] .vc-headline{text-transform:uppercase;font-weight:950!important;text-shadow:3px 3px #ff7869}.vc-stage[data-core="memphis-pop"] .vc-primary{border-radius:0!important;border:2px solid #28153c!important;box-shadow:4px 4px 0 #28153c}

@@ -1,0 +1,5 @@
+'use client';
+export function VerticalTimeline(){
+ const steps=[['2024','Build','First product experiment'],['2025','Learn','Applied AI & data'],['2026','Launch','Production design systems']];
+ return <div style={{width:'min(430px,100%)',color:'var(--text,light-dark(#1d1d1f,#ededf2))'}}>{steps.map(([year,title,sub],i)=><div key={year} style={{display:'grid',gridTemplateColumns:'65px 20px 1fr',gap:13,minHeight:70,alignItems:'start'}}><strong style={{color:'var(--accent,#8b92ff)',fontSize:12}}>{year}</strong><div style={{position:'relative',height:'100%',display:'flex',justifyContent:'center'}}><span style={{width:11,height:11,borderRadius:20,border:'2px solid var(--accent,#8b92ff)',background:i===2?'var(--accent,#8b92ff)':'transparent',zIndex:1}}/>{i<2&&<span style={{position:'absolute',top:11,bottom:0,width:1,background:'#656b85'}}/>}</div><div><strong style={{fontSize:14}}>{title}</strong><div style={{color:'var(--sub,light-dark(#555b67,#bac3d4))',fontSize:11,marginTop:5}}>{sub}</div></div></div>)}</div>;
+}

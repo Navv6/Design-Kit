@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "name": "Editorial Case Study",
+  "visualCoreId": "VCR-002",
+  "accentOverride": null,
+  "blocks": [
+    {
+      "instanceId": "block-01",
+      "assetId": "LAY-002",
+      "title": "Design beyond the ordinary.",
+      "description": "Human-centered interfaces, meaningful interactions, and ambitious ideas.",
+      "label": "Explore work",
+      "size": "large"
+    },
+    {
+      "instanceId": "block-02",
+      "assetId": "CMP-002",
+      "title": "Built to feel different.",
+      "description": "A reusable component that adapts to your chosen Visual Core.",
+      "label": "FEATURED PROJECT",
+      "size": "normal"
+    },
+    {
+      "instanceId": "block-03",
+      "assetId": "LAY-003",
+      "title": "The journey",
+      "description": "Milestones, progress and lessons.",
+      "label": "TIMELINE",
+      "size": "normal"
+    },
+    {
+      "instanceId": "block-04",
+      "assetId": "DAT-001",
+      "title": "Growth overview",
+      "description": "Small chart for a quick metric read.",
+      "label": "ANALYTICS",
+      "size": "normal"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+/* VCR-007 · Liquid Chrome · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="liquid-chrome"]{--vc-bg:#15131f;--vc-fg:#f9f5fc;--vc-accent:#b7a8ff;--vc-action-fg:#12141b;--vc-font:Arial, sans-serif;background-image:radial-gradient(circle at 75% 35%,#61518e88,transparent 48%),linear-gradient(130deg,#121522,#252337);}
+.vc-stage[data-core="liquid-chrome"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border-radius:44% 56% 75% 25%/32% 39% 61% 68%;background:linear-gradient(130deg,#fbfaff 10%,#535e94 25%,#edf3f8 36%,#4a476d 48%,#eef3ff 70%,#9290b2 83%);box-shadow:inset -18px -15px 35px #302b59,14px 19px 50px #060713;transform:rotate(-20deg);}
+.vc-stage[data-core="liquid-chrome"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border:10px solid #d3cbf5;border-radius:50%;filter:blur(2px);}
+.vc-stage[data-core="liquid-chrome"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#ffffffb0;}
+.vc-stage[data-core="liquid-chrome"] .vc-headline{text-transform:uppercase;letter-spacing:-.09em!important}.vc-stage[data-core="liquid-chrome"] .vc-primary{background:linear-gradient(130deg,#f4f4ff,#9086be)!important;color:#2b2351!important}

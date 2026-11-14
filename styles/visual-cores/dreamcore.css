@@ -1,0 +1,6 @@
+/* VCR-020 · Dreamcore · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="dreamcore"]{--vc-bg:#211e39;--vc-fg:#fff1fc;--vc-accent:#ebaee7;--vc-action-fg:#12141b;--vc-font:Georgia, serif;background-image:radial-gradient(circle at 76% 30%,#d08ee588,transparent 45%),radial-gradient(circle at 55% 90%,#9e8de76b,transparent 50%),#211e39;}
+.vc-stage[data-core="dreamcore"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border-radius:50%;background:radial-gradient(circle at 30% 30%,#fff6fc,#f3b0e4 35%,#7771c4 80%);filter:blur(3px);box-shadow:0 0 55px #d8a0e5;}
+.vc-stage[data-core="dreamcore"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border-radius:50%;border:20px solid #f6b4e488;filter:blur(7px);}
+.vc-stage[data-core="dreamcore"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#fae5ff;}
+.vc-stage[data-core="dreamcore"] .vc-headline{font-weight:500!important;letter-spacing:-.025em!important;text-shadow:0 0 15px #f4b4e866}.vc-stage[data-core="dreamcore"] .vc-primary{border-radius:60px!important;background:#e7a4ec!important}

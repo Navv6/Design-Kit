@@ -1,0 +1,9 @@
+/* VCR-008 · Retro Terminal · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="retro-terminal"]{--vc-bg:#09140d;--vc-fg:#a9f7a7;--vc-accent:#6fe89c;--vc-action-fg:#12141b;--vc-font:Consolas, monospace;background-image:repeating-linear-gradient(0deg,transparent 0 3px,#62cf8630 4px);}
+.vc-stage[data-core="retro-terminal"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border:1px solid #65efad;box-shadow:0 0 20px #56ffa62a;}
+.vc-stage[data-core="retro-terminal"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border:1px solid #65efad;}
+.vc-stage[data-core="retro-terminal"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#6fe89c;}
+.vc-stage[data-core="retro-terminal"] .vc-headline{text-transform:uppercase;font-size:clamp(24px,3.6vw,50px)!important;letter-spacing:-.05em!important}.vc-stage[data-core="retro-terminal"] .vc-primary{border-radius:0!important;background:#6fe89c!important}
+.vc-stage[data-core="retro-terminal"] .vc-art{animation:vc-drift 9s ease-in-out infinite alternate}
+
+.vc-stage.vc-compact[data-core="retro-terminal"] .vc-headline{font-size:clamp(17px,2.1vw,25px)!important}

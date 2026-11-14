@@ -1,0 +1,2 @@
+'use client';
+export function MeshGradient(){return <div style={{height:'100%',width:'100%',minHeight:230,borderRadius:12,display:'grid',placeItems:'center',background:'radial-gradient(ellipse at 15% 15%,#e8b2f9 0%,transparent 48%),radial-gradient(ellipse at 83% 22%,#9ceaf6 0%,transparent 45%),radial-gradient(ellipse at 74% 84%,#a5a4fa 0%,transparent 50%),linear-gradient(130deg,#6e6bd8,#cba8e3)',color:'#283259'}}><span style={{fontSize:30,fontWeight:850,letterSpacing:'-.055em'}}>Color in motion.</span></div>}

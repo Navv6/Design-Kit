@@ -1,0 +1,6 @@
+/* VCR-009 · Y2K Pop · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="y2k"]{--vc-bg:#f4e9ff;--vc-fg:#2b1852;--vc-accent:#eb58df;--vc-action-fg:#12141b;--vc-font:Arial, sans-serif;background-image:radial-gradient(circle at 80% 20%,#ffc8fa 3%,transparent 40%),linear-gradient(125deg,#efddff,#ffedf9);}
+.vc-stage[data-core="y2k"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border-radius:50%;background:radial-gradient(circle at 35% 32%,#fff, #d7d0ff 30%,#a76cff 58%,#fb6ac7);box-shadow:6px 9px 0 #ff8ee0;}
+.vc-stage[data-core="y2k"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border-radius:50%;border:10px solid #ff8fce;}
+.vc-stage[data-core="y2k"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#e67fe4;}
+.vc-stage[data-core="y2k"] .vc-headline{text-transform:uppercase;text-shadow:2px 3px #fff}.vc-stage[data-core="y2k"] .vc-primary{border-radius:30px!important;box-shadow:4px 5px 0 #c286ee}

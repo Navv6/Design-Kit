@@ -1,0 +1,61 @@
+.atlas-orbit {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  container-type: inline-size;
+  color: #122c28;
+}
+.atlas-orbit-stage {
+  --orbit-radius: clamp(76px, 31cqi, 124px);
+  --orbit-card: clamp(48px, 19cqi, 76px);
+  position: relative;
+  width: 100%;
+  min-height: calc(2 * var(--orbit-radius) + var(--orbit-card) + 16px);
+  display: grid;
+  place-items: center;
+}
+.atlas-orbit-track {
+  width: calc(2 * var(--orbit-radius));
+  aspect-ratio: 1;
+  border: 1px dashed #6d9189;
+  border-radius: 50%;
+}
+.atlas-orbit-cards { display: contents; list-style: none; }
+.atlas-orbit-cards li {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  margin: calc(-0.5 * var(--orbit-card));
+  width: var(--orbit-card);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border: 1px solid #698d83;
+  border-radius: 12px;
+  background: #ecfcf3;
+  color: #122c28;
+  font-size: 13px;
+  font-weight: 700;
+  transform: translateY(-52px) rotate(var(--stack-tilt));
+  transition: transform 440ms cubic-bezier(.2,.8,.25,1), border-radius 440ms;
+}
+.atlas-orbit[data-expanded="true"] li {
+  transform: translate(calc(var(--orbit-x) * var(--orbit-radius)), calc(var(--orbit-y) * var(--orbit-radius)));
+  border-radius: 38%;
+}
+.atlas-orbit-toggle {
+  position: absolute;
+  padding: 8px 12px;
+  border: 1px solid #254c43;
+  border-radius: 999px;
+  background: #173e35;
+  color: #fff;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 650;
+}
+.atlas-orbit-toggle:focus-visible { outline: 2px solid #096756; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  .atlas-orbit-cards li { transition: none; }
+}
+.atlas-orbit-option { display: grid; place-items: center; width: 100%; height: 100%; border: 0; border-radius: inherit; background: transparent; color: inherit; }
+.atlas-orbit-option[aria-pressed="true"] { box-shadow: inset 0 0 0 2px #237553; }

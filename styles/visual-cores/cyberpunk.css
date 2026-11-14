@@ -1,0 +1,7 @@
+/* VCR-005 · Cyberpunk · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="cyberpunk"]{--vc-bg:#080d19;--vc-fg:#f0feff;--vc-accent:#ff3cb1;--vc-action-fg:#12141b;--vc-font:Arial, sans-serif;background-image:linear-gradient(170deg,#101a37,#080d19 65%);}
+.vc-stage[data-core="cyberpunk"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;background:linear-gradient(135deg,transparent 25%,#ff2aa4 26% 32%,transparent 33%),#10112a;border:3px solid #ff47b9;transform:skew(-17deg);box-shadow:15px 15px #1cdbef;}
+.vc-stage[data-core="cyberpunk"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border:2px solid #1ce5ef;transform:skew(-17deg);}
+.vc-stage[data-core="cyberpunk"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#ff44ba;}
+.vc-stage[data-core="cyberpunk"] .vc-headline{text-transform:uppercase;font-weight:950!important;filter:drop-shadow(3px 3px 0 #19e6ea)}.vc-stage[data-core="cyberpunk"] .vc-primary{border-radius:0!important;clip-path:polygon(0 0,90% 0,100% 22%,100% 100%,0 100%)}
+.vc-stage[data-core="cyberpunk"] .vc-art{animation:vc-drift 9s ease-in-out infinite alternate}

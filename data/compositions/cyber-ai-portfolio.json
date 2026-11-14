@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "name": "Creative AI Portfolio",
+  "visualCoreId": "VCR-006",
+  "accentOverride": null,
+  "blocks": [
+    {
+      "instanceId": "block-01",
+      "assetId": "LAY-002",
+      "title": "Design beyond the ordinary.",
+      "description": "Human-centered interfaces, meaningful interactions, and ambitious ideas.",
+      "label": "Explore work",
+      "size": "large"
+    },
+    {
+      "instanceId": "block-02",
+      "assetId": "LAY-001",
+      "title": "Selected work",
+      "description": "AI applications · Systems · Interfaces",
+      "label": "EXPLORE",
+      "size": "large"
+    },
+    {
+      "instanceId": "block-03",
+      "assetId": "TYP-001",
+      "title": "Ideas into experiences.",
+      "description": "Impactful typography with a careful visual hierarchy.",
+      "label": "TYPOGRAPHY",
+      "size": "normal"
+    },
+    {
+      "instanceId": "block-04",
+      "assetId": "3D-001",
+      "title": "Particle universe",
+      "description": "An interactive R3F scene; loaded only when in view.",
+      "label": "WEBGL",
+      "size": "large"
+    },
+    {
+      "instanceId": "block-05",
+      "assetId": "CMP-003",
+      "title": "Let’s connect",
+      "description": "A focused action for a clear next step.",
+      "label": "Get in touch",
+      "size": "compact"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+'use client';
+export function SkeletonLoader(){
+ return <div style={{display:'flex',gap:15,width:285,alignItems:'start',padding:15,background:'#22293a',borderRadius:15}}><span className="ad-skel" style={{width:64,height:64,borderRadius:10,flexShrink:0}}/><div style={{flex:1,display:'flex',flexDirection:'column',gap:11,paddingTop:5}}><span className="ad-skel" style={{width:'72%',height:13,borderRadius:6}}/><span className="ad-skel" style={{width:'95%',height:9,borderRadius:6}}/><span className="ad-skel" style={{width:'57%',height:9,borderRadius:6}}/></div><style>{`.ad-skel{display:block;background:linear-gradient(100deg,#3d4456 20%,#667083 45%,#3d4456 70%);background-size:200% 100%;animation:ad-skel 1.65s linear infinite}@keyframes ad-skel{to{background-position-x:-200%}}@media(prefers-reduced-motion:reduce){.ad-skel{animation:none}}`}</style></div>;
+}

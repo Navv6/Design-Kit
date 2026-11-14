@@ -1,0 +1,69 @@
+[
+  {
+    "id": "RECIPE-001",
+    "name": "Creative AI Portfolio",
+    "description": "우주형 비주얼이 필요한 AI 포트폴리오 첫 화면",
+    "assets": [
+      "BG-001",
+      "TYP-001",
+      "CMP-003",
+      "MOT-002"
+    ],
+    "notes": "대비와 모션 감소를 고려한 경량 구성"
+  },
+  {
+    "id": "RECIPE-002",
+    "name": "Applied AI Dashboard",
+    "description": "제조·AI 업무 대시보드 첫 화면",
+    "assets": [
+      "LAY-004",
+      "DAT-001",
+      "DAT-002",
+      "CMP-006"
+    ],
+    "notes": "정확한 수치와 가독성을 우선"
+  },
+  {
+    "id": "RECIPE-003",
+    "name": "3D Project Story",
+    "description": "3D 기반 제품/프로젝트 소개 섹션",
+    "assets": [
+      "3D-002",
+      "INT-002",
+      "MOT-003",
+      "TYP-002"
+    ],
+    "notes": "GPU 성능, 대체 화면, 접근성 검증 필수"
+  },
+  {
+    "id": "RC-004",
+    "name": "AI Developer Portfolio",
+    "description": "기술 중심의 미니멀 히어로",
+    "assets": [
+      "VCR-006",
+      "CMP-002",
+      "MOT-002",
+      "3D-001"
+    ]
+  },
+  {
+    "id": "RC-005",
+    "name": "Creative Studio",
+    "description": "대담한 브랜딩 마이크로사이트",
+    "assets": [
+      "VCR-016",
+      "LAY-002",
+      "MOT-003"
+    ]
+  },
+  {
+    "id": "RC-006",
+    "name": "Editorial Journal",
+    "description": "글쓰기와 사진 중심 개인 사이트",
+    "assets": [
+      "VCR-002",
+      "TYP-002",
+      "LAY-003"
+    ]
+  }
+]

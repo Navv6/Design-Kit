@@ -1,0 +1,1215 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "navv6-atlas",
+  "homepage": "http://localhost:3000",
+  "items": [
+    {
+      "name": "atlas-toggle-switch",
+      "type": "registry:ui",
+      "title": "Toggle Switch",
+      "files": [
+        {
+          "path": "components/atlas/asset-styles.css",
+          "type": "registry:file"
+        },
+        {
+          "path": "components/atlas/toggle-switch.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-glass-card",
+      "type": "registry:ui",
+      "title": "Glass Card",
+      "files": [
+        {
+          "path": "components/atlas/asset-styles.css",
+          "type": "registry:file"
+        },
+        {
+          "path": "components/atlas/glass-card.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-gradient-button",
+      "type": "registry:ui",
+      "title": "Gradient Button",
+      "files": [
+        {
+          "path": "components/atlas/asset-styles.css",
+          "type": "registry:file"
+        },
+        {
+          "path": "components/atlas/gradient-button.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-magnetic-button",
+      "type": "registry:ui",
+      "title": "Magnetic Button",
+      "dependencies": [
+        "motion"
+      ],
+      "files": [
+        {
+          "path": "components/atlas/asset-styles.css",
+          "type": "registry:file"
+        },
+        {
+          "path": "components/atlas/magnetic-button.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-bento-grid",
+      "type": "registry:block",
+      "title": "Bento Grid",
+      "files": [
+        {
+          "path": "components/atlas/asset-styles.css",
+          "type": "registry:file"
+        },
+        {
+          "path": "components/atlas/bento-grid.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-particle-field",
+      "type": "registry:component",
+      "title": "3D Particle Field",
+      "dependencies": [
+        "three",
+        "@react-three/fiber",
+        "@react-three/drei"
+      ],
+      "files": [
+        {
+          "path": "components/atlas/asset-styles.css",
+          "type": "registry:file"
+        },
+        {
+          "path": "components/atlas/particle-field.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/use-webgl-scene.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "atlas-checkbox",
+      "type": "registry:ui",
+      "title": "Checkbox",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/checkbox.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-radio-group",
+      "type": "registry:ui",
+      "title": "Radio Group",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/radio-group.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-segmented-control",
+      "type": "registry:ui",
+      "title": "Segmented Control",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/segmented-control.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-modal-dialog",
+      "type": "registry:ui",
+      "title": "Modal Dialog",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/asset-styles.css",
+          "type": "registry:file"
+        },
+        {
+          "path": "components/atlas/modal-dialog.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-bottom-sheet",
+      "type": "registry:ui",
+      "title": "Bottom Sheet",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/asset-styles.css",
+          "type": "registry:file"
+        },
+        {
+          "path": "components/atlas/bottom-sheet.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-toast-notice",
+      "type": "registry:ui",
+      "title": "Toast Notice",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/asset-styles.css",
+          "type": "registry:file"
+        },
+        {
+          "path": "components/atlas/toast-notice.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-tooltip",
+      "type": "registry:ui",
+      "title": "Tooltip",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/tooltip.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-filter-chips",
+      "type": "registry:ui",
+      "title": "Filter Chips",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/filter-chips.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-skeleton-loader",
+      "type": "registry:ui",
+      "title": "Skeleton Loader",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/skeleton-loader.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-number-stepper",
+      "type": "registry:ui",
+      "title": "Number Stepper",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/number-stepper.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-range-slider",
+      "type": "registry:ui",
+      "title": "Range Slider",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/range-slider.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-scroll-reveal",
+      "type": "registry:ui",
+      "title": "Scroll Reveal",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/scroll-reveal.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-tilt-card",
+      "type": "registry:ui",
+      "title": "Tilt Card",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/tilt-card.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-animated-counter",
+      "type": "registry:ui",
+      "title": "Animated Counter",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/asset-styles.css",
+          "type": "registry:file"
+        },
+        {
+          "path": "components/atlas/animated-counter.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-text-scramble",
+      "type": "registry:ui",
+      "title": "Text Scramble",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/text-scramble.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-split-hero",
+      "type": "registry:block",
+      "title": "Split Hero",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/split-hero.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-vertical-timeline",
+      "type": "registry:block",
+      "title": "Vertical Timeline",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/vertical-timeline.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-dashboard-shell",
+      "type": "registry:block",
+      "title": "Dashboard Shell",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/dashboard-shell.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-masonry-gallery",
+      "type": "registry:block",
+      "title": "Masonry Gallery",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/masonry-gallery.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-torus-knot",
+      "type": "registry:component",
+      "title": "Torus Knot",
+      "dependencies": [
+        "three",
+        "@react-three/fiber",
+        "@react-three/drei"
+      ],
+      "files": [
+        {
+          "path": "components/atlas/webgl-scene.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/use-webgl-scene.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "components/atlas/torus-knot.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-wire-globe",
+      "type": "registry:component",
+      "title": "Wire Globe",
+      "dependencies": [
+        "three",
+        "@react-three/fiber",
+        "@react-three/drei"
+      ],
+      "files": [
+        {
+          "path": "components/atlas/webgl-scene.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/use-webgl-scene.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "components/atlas/wire-globe.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-liquid-shader",
+      "type": "registry:component",
+      "title": "Liquid Shader",
+      "dependencies": [
+        "three",
+        "@react-three/fiber"
+      ],
+      "files": [
+        {
+          "path": "components/atlas/webgl-scene.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/use-webgl-scene.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "components/atlas/liquid-shader.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-wave-grid-shader",
+      "type": "registry:component",
+      "title": "Wave Grid Shader",
+      "dependencies": [
+        "three",
+        "@react-three/fiber"
+      ],
+      "files": [
+        {
+          "path": "components/atlas/webgl-scene.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/use-webgl-scene.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "components/atlas/wave-grid-shader.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-gradient-heading",
+      "type": "registry:ui",
+      "title": "Gradient Heading",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/gradient-heading.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-outline-type",
+      "type": "registry:ui",
+      "title": "Outline Typography",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/outline-type.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-typewriter-title",
+      "type": "registry:ui",
+      "title": "Typewriter Title",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/typewriter-title.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-sparkline-chart",
+      "type": "registry:ui",
+      "title": "Sparkline Chart",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/sparkline-chart.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-activity-heatmap",
+      "type": "registry:ui",
+      "title": "Activity Heatmap",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/activity-heatmap.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-radial-gauge",
+      "type": "registry:ui",
+      "title": "Radial Gauge",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/radial-gauge.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-aurora-background",
+      "type": "registry:ui",
+      "title": "Aurora Background",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/aurora-background.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-dot-grid",
+      "type": "registry:ui",
+      "title": "Dot Grid",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/dot-grid.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-mesh-gradient",
+      "type": "registry:ui",
+      "title": "Mesh Gradient",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/mesh-gradient.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-command-palette",
+      "type": "registry:ui",
+      "title": "Command Palette",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/asset-styles.css",
+          "type": "registry:file"
+        },
+        {
+          "path": "components/atlas/command-palette.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-spotlight-card",
+      "type": "registry:ui",
+      "title": "Spotlight Card",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "components/atlas/spotlight-card.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-swiss-grid",
+      "type": "registry:style",
+      "title": "Swiss Grid Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/swiss-grid.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/swiss-grid.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-editorial-minimal",
+      "type": "registry:style",
+      "title": "Editorial Minimal Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/editorial-minimal.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/editorial-minimal.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-quiet-luxury",
+      "type": "registry:style",
+      "title": "Quiet Luxury Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/quiet-luxury.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/quiet-luxury.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-blueprint",
+      "type": "registry:style",
+      "title": "Blueprint System Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/blueprint.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/blueprint.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-cyberpunk",
+      "type": "registry:style",
+      "title": "Cyberpunk Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/cyberpunk.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/cyberpunk.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-cyber-minimal",
+      "type": "registry:style",
+      "title": "Cyber Minimal Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/cyber-minimal.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/cyber-minimal.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-liquid-chrome",
+      "type": "registry:style",
+      "title": "Liquid Chrome Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/liquid-chrome.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/liquid-chrome.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-retro-terminal",
+      "type": "registry:style",
+      "title": "Retro Terminal Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/retro-terminal.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/retro-terminal.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-y2k",
+      "type": "registry:style",
+      "title": "Y2K Pop Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/y2k.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/y2k.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-frutiger-aero",
+      "type": "registry:style",
+      "title": "Frutiger Aero Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/frutiger-aero.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/frutiger-aero.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-vaporwave",
+      "type": "registry:style",
+      "title": "Vaporwave Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/vaporwave.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/vaporwave.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-memphis-pop",
+      "type": "registry:style",
+      "title": "Memphis Pop Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/memphis-pop.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/memphis-pop.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-glassmorphism",
+      "type": "registry:style",
+      "title": "Glassmorphism Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/glassmorphism.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/glassmorphism.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-neumorphism",
+      "type": "registry:style",
+      "title": "Neumorphism Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/neumorphism.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/neumorphism.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-claymorphism",
+      "type": "registry:style",
+      "title": "Claymorphism Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/claymorphism.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/claymorphism.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-neo-brutalism",
+      "type": "registry:style",
+      "title": "Neo Brutalism Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/neo-brutalism.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/neo-brutalism.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-dark-academia",
+      "type": "registry:style",
+      "title": "Dark Academia Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/dark-academia.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/dark-academia.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-solarpunk",
+      "type": "registry:style",
+      "title": "Solarpunk Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/solarpunk.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/solarpunk.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-organic-nature",
+      "type": "registry:style",
+      "title": "Organic Nature Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/organic-nature.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/organic-nature.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-visual-dreamcore",
+      "type": "registry:style",
+      "title": "Dreamcore Visual Core",
+      "files": [
+        {
+          "path": "styles/visual-cores/dreamcore.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/dreamcore.css"
+        },
+        {
+          "path": "styles/visual-cores/base.css",
+          "type": "registry:file",
+          "target": "styles/visual-cores/base.css"
+        },
+        {
+          "path": "components/atlas/visual-core-preview.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-orbit-reveal",
+      "type": "registry:component",
+      "title": "Orbit Reveal",
+      "files": [
+        {
+          "path": "components/atlas/orbit-reveal.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/orbit-reveal.css",
+          "type": "registry:file",
+          "target": "components/atlas/orbit-reveal.css"
+        }
+      ]
+    },
+    {
+      "name": "atlas-magnetic-player",
+      "type": "registry:component",
+      "title": "Magnetic Player",
+      "files": [
+        {
+          "path": "components/atlas/magnetic-demo.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/magnetic-demo.css",
+          "type": "registry:file",
+          "target": "components/atlas/magnetic-demo.css"
+        }
+      ]
+    },
+    {
+      "name": "atlas-stack-carousel",
+      "type": "registry:component",
+      "title": "Stack Carousel",
+      "files": [
+        {
+          "path": "components/atlas/stack-carousel.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/riff-interactions.css",
+          "type": "registry:file",
+          "target": "components/atlas/riff-interactions.css"
+        },
+        {
+          "path": "components/atlas/carousel-navigation.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "atlas-receipt-printer",
+      "type": "registry:component",
+      "title": "Receipt Printer",
+      "files": [
+        {
+          "path": "components/atlas/receipt-printer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/riff-interactions.css",
+          "type": "registry:file",
+          "target": "components/atlas/riff-interactions.css"
+        }
+      ]
+    },
+    {
+      "name": "atlas-basket-dropzone",
+      "type": "registry:component",
+      "title": "Basket Dropzone",
+      "files": [
+        {
+          "path": "components/atlas/basket-dropzone.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/riff-interactions.css",
+          "type": "registry:file",
+          "target": "components/atlas/riff-interactions.css"
+        }
+      ]
+    },
+    {
+      "name": "atlas-liquid-tabs",
+      "type": "registry:component",
+      "title": "Liquid Tabs",
+      "files": [
+        {
+          "path": "components/atlas/liquid-tabs.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/riff-interactions.css",
+          "type": "registry:file",
+          "target": "components/atlas/riff-interactions.css"
+        }
+      ]
+    },
+    {
+      "name": "atlas-magnifying-dock",
+      "type": "registry:component",
+      "title": "Magnifying Dock",
+      "files": [
+        {
+          "path": "components/atlas/magnifying-dock.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/riff-interactions.css",
+          "type": "registry:file",
+          "target": "components/atlas/riff-interactions.css"
+        }
+      ]
+    },
+    {
+      "name": "atlas-cursor-trail",
+      "type": "registry:component",
+      "title": "Cursor Trail",
+      "files": [
+        {
+          "path": "components/atlas/cursor-trail.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/riff-interactions.css",
+          "type": "registry:file",
+          "target": "components/atlas/riff-interactions.css"
+        }
+      ]
+    },
+    {
+      "name": "atlas-profile-expansion",
+      "type": "registry:component",
+      "title": "Profile Expansion",
+      "files": [
+        {
+          "path": "components/atlas/profile-expansion.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/riff-interactions.css",
+          "type": "registry:file",
+          "target": "components/atlas/riff-interactions.css"
+        }
+      ]
+    },
+    {
+      "name": "atlas-kinetic-steps",
+      "type": "registry:component",
+      "title": "Kinetic Steps",
+      "files": [
+        {
+          "path": "components/atlas/kinetic-steps.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/riff-interactions.css",
+          "type": "registry:file",
+          "target": "components/atlas/riff-interactions.css"
+        }
+      ]
+    },
+    {
+      "name": "atlas-image-glitch",
+      "type": "registry:component",
+      "title": "Image Glitch",
+      "files": [
+        {
+          "path": "components/atlas/image-glitch.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/riff-interactions.css",
+          "type": "registry:file",
+          "target": "components/atlas/riff-interactions.css"
+        }
+      ]
+    },
+    {
+      "name": "atlas-popcorn-burst",
+      "type": "registry:component",
+      "title": "Popcorn Burst",
+      "files": [
+        {
+          "path": "components/atlas/popcorn-burst.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/riff-interactions.css",
+          "type": "registry:file",
+          "target": "components/atlas/riff-interactions.css"
+        }
+      ]
+    },
+    {
+      "name": "atlas-carousel-navigation",
+      "type": "registry:component",
+      "title": "Carousel Navigation",
+      "files": [
+        {
+          "path": "components/atlas/carousel-navigation.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/riff-interactions.css",
+          "type": "registry:file",
+          "target": "components/atlas/riff-interactions.css"
+        }
+      ]
+    }
+  ]
+}

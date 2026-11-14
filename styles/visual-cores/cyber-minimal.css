@@ -1,0 +1,6 @@
+/* VCR-006 · Cyber Minimal · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="cyber-minimal"]{--vc-bg:#101822;--vc-fg:#ebf8fb;--vc-accent:#4de5cf;--vc-action-fg:#12141b;--vc-font:Arial, sans-serif;background-image:radial-gradient(circle at 80% 55%,#0b626049,transparent 46%);}
+.vc-stage[data-core="cyber-minimal"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border:1px solid #4de5cf;border-radius:50%;box-shadow:0 0 50px #4de5cf33, inset 0 0 22px #4de5cf32;}
+.vc-stage[data-core="cyber-minimal"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border:1px dashed #63d8cf;border-radius:50%;}
+.vc-stage[data-core="cyber-minimal"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#5cf5dd;}
+.vc-stage[data-core="cyber-minimal"] .vc-headline{font-weight:600!important;letter-spacing:-.06em!important}.vc-stage[data-core="cyber-minimal"] .vc-primary{background:transparent!important;border:1px solid #4de5cf!important;color:#4de5cf!important}

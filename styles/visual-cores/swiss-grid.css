@@ -1,0 +1,6 @@
+/* VCR-001 · Swiss Grid · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="swiss-grid"]{--vc-bg:#f3f2eb;--vc-fg:#191919;--vc-accent:#f04b35;--vc-action-fg:#12141b;--vc-font:IBM Plex Sans, Arial, sans-serif;background-image:linear-gradient(#15151516 1px,transparent 1px),linear-gradient(90deg,#15151516 1px,transparent 1px);background-size:40px 40px;}
+.vc-stage[data-core="swiss-grid"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border:25px solid #f04b35;transform:rotate(-17deg);}
+.vc-stage[data-core="swiss-grid"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border:1px solid #141414;transform:rotate(8deg);}
+.vc-stage[data-core="swiss-grid"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#191919;}
+.vc-stage[data-core="swiss-grid"] .vc-headline{text-transform:uppercase;letter-spacing:-.1em}.vc-stage[data-core="swiss-grid"] .vc-primary{border-radius:0}.vc-stage[data-core="swiss-grid"] .vc-eyebrow{color:#f04b35!important}

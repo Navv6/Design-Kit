@@ -1,0 +1,6 @@
+/* VCR-003 · Quiet Luxury · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="quiet-luxury"]{--vc-bg:#e7e1d8;--vc-fg:#252620;--vc-accent:#88775f;--vc-action-fg:#ffffff;--vc-font:Georgia, serif;background-image:linear-gradient(135deg,#ffffff48,transparent 62%);}
+.vc-stage[data-core="quiet-luxury"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;background:linear-gradient(145deg,#a69a84,#ded5c6,#6e6458);border-radius:50%;}
+.vc-stage[data-core="quiet-luxury"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border:1px solid #b9a58e;border-radius:50%;}
+.vc-stage[data-core="quiet-luxury"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#80705b;}
+.vc-stage[data-core="quiet-luxury"] .vc-headline{font-weight:400!important;letter-spacing:-.03em!important}.vc-stage[data-core="quiet-luxury"] .vc-primary{border-radius:2px!important;background:transparent!important;border:1px solid var(--vc-fg)!important;color:var(--vc-fg)!important}

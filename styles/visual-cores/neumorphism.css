@@ -1,0 +1,6 @@
+/* VCR-014 · Neumorphism · self-contained preset tokens; requires base.css */
+.vc-stage[data-core="neumorphism"]{--vc-bg:#e4e9f3;--vc-fg:#344765;--vc-accent:#6781e7;--vc-action-fg:#12141b;--vc-font:Arial, sans-serif;background-image:linear-gradient(145deg,#edf1fa,#d7e0ee);}
+.vc-stage[data-core="neumorphism"] .vc-art i:nth-child(1){width:59%;height:59%;top:10%;left:15%;border-radius:34px;background:#e2e8f2;box-shadow:18px 18px 35px #b1bacb,-18px -18px 35px #ffffff;}
+.vc-stage[data-core="neumorphism"] .vc-art i:nth-child(2){width:38%;height:38%;top:44%;left:3%;border-radius:50%;box-shadow:inset 8px 8px 15px #b4c2d5,inset -8px -8px 15px #fff;}
+.vc-stage[data-core="neumorphism"] .vc-art i:nth-child(3){width:13px;height:13px;top:8%;right:13%;background:#6781e7;}
+.vc-stage[data-core="neumorphism"] .vc-primary{background:#e4e9f3!important;color:#344765!important;box-shadow:5px 5px 12px #acb8cd,-5px -5px 12px #fff;border-radius:30px!important}

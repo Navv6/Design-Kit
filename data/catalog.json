@@ -1,0 +1,2277 @@
+[
+  {
+    "id": "CMP-001",
+    "slug": "toggle-switch",
+    "name": "Toggle Switch",
+    "nameKo": "토글 스위치",
+    "category": "component",
+    "description": "설정값을 즉시 켜거나 끄는 제어 요소",
+    "tags": [
+      "form",
+      "boolean",
+      "설정",
+      "toggle"
+    ],
+    "useWhen": [
+      "변경 즉시 적용되는 설정"
+    ],
+    "avoidWhen": [
+      "제출하기 전 여러 선택지를 임시로 고르는 폼"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/toggle-switch.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": ""
+  },
+  {
+    "id": "CMP-002",
+    "slug": "glass-card",
+    "name": "Glass Card",
+    "nameKo": "글래스 카드",
+    "category": "component",
+    "description": "배경과 겹쳐지는 반투명 콘텐츠 카드",
+    "tags": [
+      "glass",
+      "backdrop",
+      "card",
+      "portfolio"
+    ],
+    "useWhen": [
+      "강조 카드나 오버레이",
+      "배경과 레이어를 구분할 때"
+    ],
+    "avoidWhen": [
+      "정보 밀도가 높은 긴 문서",
+      "저사양 환경에서 대량의 블러 사용"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/glass-card.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": ""
+  },
+  {
+    "id": "CMP-003",
+    "slug": "gradient-button",
+    "name": "Gradient Action",
+    "nameKo": "그라디언트 버튼",
+    "category": "component",
+    "description": "주요 행동을 강조하는 그라디언트 CTA",
+    "tags": [
+      "button",
+      "cta",
+      "gradient",
+      "accent"
+    ],
+    "useWhen": [
+      "페이지의 가장 중요한 행동 하나를 강조"
+    ],
+    "avoidWhen": [
+      "같은 화면에 수십 개의 강한 강조 버튼"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/gradient-button.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": ""
+  },
+  {
+    "id": "MOT-001",
+    "slug": "magnetic-button",
+    "name": "Magnetic Button",
+    "nameKo": "마그네틱 버튼",
+    "category": "motion",
+    "description": "포인터 위치에 반응하며 미세하게 이동하는 버튼",
+    "tags": [
+      "motion",
+      "interaction",
+      "pointer",
+      "spring"
+    ],
+    "useWhen": [
+      "포트폴리오의 주요 인터랙션",
+      "마우스 기반 데스크톱 경험"
+    ],
+    "avoidWhen": [
+      "반복되는 데이터 테이블 액션",
+      "모션 감소 설정에서 강제 애니메이션"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "source": "components/atlas/magnetic-button.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": ""
+  },
+  {
+    "id": "LAY-001",
+    "slug": "bento-grid",
+    "name": "Bento Grid",
+    "nameKo": "벤토 그리드",
+    "category": "layout",
+    "description": "크기가 다른 카드로 정보를 계층화하는 반응형 레이아웃",
+    "tags": [
+      "layout",
+      "bento",
+      "grid",
+      "portfolio"
+    ],
+    "useWhen": [
+      "서로 다른 유형의 프로젝트와 강점을 한 화면에 소개"
+    ],
+    "avoidWhen": [
+      "반복 행을 동일 크기로 비교해야 하는 목록"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/bento-grid.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": ""
+  },
+  {
+    "id": "3D-001",
+    "slug": "particle-field",
+    "name": "Particle Field",
+    "nameKo": "3D 파티클 필드",
+    "category": "three",
+    "description": "Three.js 기반 입자 구름을 회전시키는 WebGL 장면",
+    "tags": [
+      "threejs",
+      "webgl",
+      "particles",
+      "hero",
+      "3d"
+    ],
+    "useWhen": [
+      "3D 헤더와 비주얼 중심 Hero",
+      "웹그래픽을 강조하는 페이지"
+    ],
+    "avoidWhen": [
+      "저사양 디바이스와 복잡한 데이터 입력 화면",
+      "접근성 요구상 정지 화면이 필요한 경우"
+    ],
+    "dependencies": [
+      "three",
+      "@react-three/fiber",
+      "@react-three/drei"
+    ],
+    "source": "components/atlas/particle-field.tsx",
+    "complexity": "high",
+    "status": "ready",
+    "performance": "high",
+    "componentName": ""
+  },
+  {
+    "id": "CMP-004",
+    "slug": "checkbox",
+    "name": "Checkbox",
+    "nameKo": "체크박스",
+    "category": "component",
+    "description": "여러 항목을 독립적으로 선택하는 컨트롤",
+    "tags": [
+      "selection",
+      "form",
+      "checkbox",
+      "multi"
+    ],
+    "useWhen": [
+      "동의 또는 복수 선택이 필요할 때"
+    ],
+    "avoidWhen": [
+      "하나만 선택해야 하는 상호배타적 옵션"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/checkbox.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "Checkbox"
+  },
+  {
+    "id": "CMP-005",
+    "slug": "radio-group",
+    "name": "Radio Group",
+    "nameKo": "라디오 그룹",
+    "category": "component",
+    "description": "상호 배타적인 옵션 중 하나를 선택",
+    "tags": [
+      "selection",
+      "radio",
+      "form",
+      "single"
+    ],
+    "useWhen": [
+      "가격제나 계정 유형 중 하나만 고를 때"
+    ],
+    "avoidWhen": [
+      "여러 값을 동시에 선택해야 할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/radio-group.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "RadioGroup"
+  },
+  {
+    "id": "CMP-006",
+    "slug": "segmented-control",
+    "name": "Segmented Control",
+    "nameKo": "세그먼트 선택",
+    "category": "component",
+    "description": "동일 맥락의 표시 모드를 전환",
+    "tags": [
+      "segmented",
+      "tabs",
+      "switch",
+      "view"
+    ],
+    "useWhen": [
+      "리스트/그리드 등 보기 옵션 전환"
+    ],
+    "avoidWhen": [
+      "서로 다른 페이지 내비게이션"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/segmented-control.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "SegmentedControl"
+  },
+  {
+    "id": "CMP-007",
+    "slug": "modal-dialog",
+    "name": "Modal Dialog",
+    "nameKo": "모달 대화창",
+    "category": "component",
+    "description": "의사결정이 필요한 작업을 집중시키는 대화창",
+    "tags": [
+      "modal",
+      "dialog",
+      "confirm",
+      "overlay"
+    ],
+    "useWhen": [
+      "중요 확인/삭제/설정 완료 작업"
+    ],
+    "avoidWhen": [
+      "단순 정보 안내나 수시로 반복되는 알림"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/modal-dialog.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "ModalDialog"
+  },
+  {
+    "id": "CMP-008",
+    "slug": "bottom-sheet",
+    "name": "Bottom Sheet",
+    "nameKo": "바텀시트",
+    "category": "component",
+    "description": "모바일 중심의 하단 슬라이드 패널",
+    "tags": [
+      "mobile",
+      "bottom",
+      "sheet",
+      "overlay",
+      "drawer"
+    ],
+    "useWhen": [
+      "모바일의 보조 옵션과 짧은 액션 메뉴"
+    ],
+    "avoidWhen": [
+      "긴 본문이나 데스크톱 중심 정밀 편집"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/bottom-sheet.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "BottomSheet"
+  },
+  {
+    "id": "CMP-009",
+    "slug": "toast-notice",
+    "name": "Toast Notice",
+    "nameKo": "토스트 알림",
+    "category": "component",
+    "description": "작업 완료 결과를 간결하게 통지",
+    "tags": [
+      "toast",
+      "notification",
+      "feedback",
+      "success"
+    ],
+    "useWhen": [
+      "저장 완료 등 짧고 비차단적인 피드백"
+    ],
+    "avoidWhen": [
+      "사용자가 반드시 선택해야 하는 의사결정"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/toast-notice.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "ToastNotice"
+  },
+  {
+    "id": "CMP-010",
+    "slug": "tooltip",
+    "name": "Tooltip",
+    "nameKo": "툴팁",
+    "category": "component",
+    "description": "짧은 용어 설명을 보여주는 컨텍스트 안내",
+    "tags": [
+      "tooltip",
+      "hover",
+      "focus",
+      "accessibility"
+    ],
+    "useWhen": [
+      "아이콘과 약어의 간단한 의미를 전달"
+    ],
+    "avoidWhen": [
+      "버튼이나 입력 폼을 넣는 복잡한 패널"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/tooltip.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "Tooltip"
+  },
+  {
+    "id": "CMP-011",
+    "slug": "filter-chips",
+    "name": "Filter Chips",
+    "nameKo": "선택 칩",
+    "category": "component",
+    "description": "여러 관심 주제를 토글하여 필터링",
+    "tags": [
+      "chip",
+      "tag",
+      "filter",
+      "multi-selection"
+    ],
+    "useWhen": [
+      "다중 필터 또는 관심사 선택"
+    ],
+    "avoidWhen": [
+      "비활성 상태 표시만 필요한 정적 배지"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/filter-chips.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "FilterChips"
+  },
+  {
+    "id": "CMP-012",
+    "slug": "skeleton-loader",
+    "name": "Skeleton Loader",
+    "nameKo": "스켈레톤 로딩",
+    "category": "component",
+    "description": "로드될 콘텐츠의 대략적인 구조를 예고",
+    "tags": [
+      "skeleton",
+      "loading",
+      "placeholder"
+    ],
+    "useWhen": [
+      "비동기 카드나 리스트 로딩"
+    ],
+    "avoidWhen": [
+      "로딩 시간이 극히 짧은 즉시 결과"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/skeleton-loader.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "SkeletonLoader"
+  },
+  {
+    "id": "CMP-013",
+    "slug": "number-stepper",
+    "name": "Number Stepper",
+    "nameKo": "숫자 스테퍼",
+    "category": "component",
+    "description": "정해진 단위로 수치를 올리고 내리는 컨트롤",
+    "tags": [
+      "number",
+      "stepper",
+      "quantity",
+      "form"
+    ],
+    "useWhen": [
+      "정수 수량이나 페이지 단위 조절"
+    ],
+    "avoidWhen": [
+      "연속적 범위의 대략적인 조절"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/number-stepper.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "NumberStepper"
+  },
+  {
+    "id": "CMP-014",
+    "slug": "range-slider",
+    "name": "Range Slider",
+    "nameKo": "레인지 슬라이더",
+    "category": "component",
+    "description": "연속 범위 안에서 값을 직접 조절",
+    "tags": [
+      "slider",
+      "range",
+      "value",
+      "control"
+    ],
+    "useWhen": [
+      "볼륨, 투명도 등 직관적 범위 설정"
+    ],
+    "avoidWhen": [
+      "정확한 숫자 입력이 반드시 필요한 경우"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/range-slider.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "RangeSlider"
+  },
+  {
+    "id": "MOT-002",
+    "slug": "scroll-reveal",
+    "name": "Scroll Reveal",
+    "nameKo": "스크롤 리빌",
+    "category": "motion",
+    "description": "화면 진입 시 부드럽게 등장하는 콘텐츠",
+    "tags": [
+      "scroll",
+      "reveal",
+      "entrance",
+      "observer"
+    ],
+    "useWhen": [
+      "섹션 진입에 따라 콘텐츠에 주목시키기"
+    ],
+    "avoidWhen": [
+      "매우 긴 표나 잦은 모션이 집중을 방해할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/scroll-reveal.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "ScrollReveal"
+  },
+  {
+    "id": "MOT-003",
+    "slug": "tilt-card",
+    "name": "Tilt Card",
+    "nameKo": "3D 틸트 카드",
+    "category": "motion",
+    "description": "포인터 방향으로 기울어지는 반응형 카드",
+    "tags": [
+      "hover",
+      "tilt",
+      "perspective",
+      "pointer"
+    ],
+    "useWhen": [
+      "포트폴리오 썸네일 및 주요 카드 강조"
+    ],
+    "avoidWhen": [
+      "빠른 반복 조작이 필요한 정보 카드"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/tilt-card.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "TiltCard"
+  },
+  {
+    "id": "MOT-004",
+    "slug": "animated-counter",
+    "name": "Animated Counter",
+    "nameKo": "카운터 애니메이션",
+    "category": "motion",
+    "description": "숫자 변화에 의미를 부여하는 점진적 카운터",
+    "tags": [
+      "counter",
+      "number",
+      "animation",
+      "KPI"
+    ],
+    "useWhen": [
+      "성과 수치나 핵심 통계 강조"
+    ],
+    "avoidWhen": [
+      "정확성을 즉시 읽어야 하는 실시간 수치"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/animated-counter.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "AnimatedCounter"
+  },
+  {
+    "id": "MOT-005",
+    "slug": "text-scramble",
+    "name": "Text Scramble",
+    "nameKo": "텍스트 스크램블",
+    "category": "motion",
+    "description": "문자를 뒤섞으며 문구를 전환하는 인터랙션",
+    "tags": [
+      "scramble",
+      "glitch",
+      "text",
+      "animation"
+    ],
+    "useWhen": [
+      "테크 감성 히어로 텍스트 및 상태 전환"
+    ],
+    "avoidWhen": [
+      "본문 텍스트나 중요한 접근성 정보"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/text-scramble.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "TextScramble"
+  },
+  {
+    "id": "LAY-002",
+    "slug": "split-hero",
+    "name": "Split Hero",
+    "nameKo": "분할 히어로",
+    "category": "layout",
+    "description": "메시지와 시각 오브젝트를 나누는 히어로 섹션",
+    "tags": [
+      "hero",
+      "split",
+      "landing",
+      "editorial"
+    ],
+    "useWhen": [
+      "핵심 문구와 비주얼을 함께 보여주는 랜딩페이지"
+    ],
+    "avoidWhen": [
+      "좁은 레이아웃에서 너무 많은 요소를 나열할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/split-hero.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "SplitHero"
+  },
+  {
+    "id": "LAY-003",
+    "slug": "vertical-timeline",
+    "name": "Vertical Timeline",
+    "nameKo": "세로 타임라인",
+    "category": "layout",
+    "description": "시간순 마일스톤을 표현하는 수직 타임라인",
+    "tags": [
+      "timeline",
+      "career",
+      "history",
+      "steps"
+    ],
+    "useWhen": [
+      "경력 기록과 제품 발전 과정"
+    ],
+    "avoidWhen": [
+      "서로 순서가 없는 항목을 균등히 배치할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/vertical-timeline.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VerticalTimeline"
+  },
+  {
+    "id": "LAY-004",
+    "slug": "dashboard-shell",
+    "name": "Dashboard Shell",
+    "nameKo": "대시보드 셸",
+    "category": "layout",
+    "description": "정보 카드 및 차트를 계층화하는 분석 화면",
+    "tags": [
+      "dashboard",
+      "kpi",
+      "analytics",
+      "panels"
+    ],
+    "useWhen": [
+      "관리자 워크스페이스와 분석 보고 화면"
+    ],
+    "avoidWhen": [
+      "마케팅형 히어로 페이지"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/dashboard-shell.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "DashboardShell"
+  },
+  {
+    "id": "LAY-005",
+    "slug": "masonry-gallery",
+    "name": "Masonry Gallery",
+    "nameKo": "메이슨리 갤러리",
+    "category": "layout",
+    "description": "높이가 다른 콘텐츠를 자연스럽게 배열",
+    "tags": [
+      "masonry",
+      "gallery",
+      "images",
+      "portfolio"
+    ],
+    "useWhen": [
+      "이미지 중심 아카이브나 작업 모음"
+    ],
+    "avoidWhen": [
+      "모든 항목을 행별로 비교해야 하는 테이블"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/masonry-gallery.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "MasonryGallery"
+  },
+  {
+    "id": "3D-002",
+    "slug": "torus-knot",
+    "name": "Torus Knot",
+    "nameKo": "토러스 노트",
+    "category": "three",
+    "description": "회전하는 실시간 WebGL 지오메트리",
+    "tags": [
+      "threejs",
+      "webgl",
+      "torus",
+      "mesh",
+      "3d"
+    ],
+    "useWhen": [
+      "3D 제품 분위기와 입체적인 히어로 강조"
+    ],
+    "avoidWhen": [
+      "GPU가 부족한 디바이스 및 정적인 문서 페이지"
+    ],
+    "dependencies": [
+      "three",
+      "@react-three/fiber",
+      "@react-three/drei"
+    ],
+    "source": "components/atlas/torus-knot.tsx",
+    "complexity": "high",
+    "status": "ready",
+    "performance": "high",
+    "componentName": "TorusKnot"
+  },
+  {
+    "id": "3D-003",
+    "slug": "wire-globe",
+    "name": "Wire Globe",
+    "nameKo": "와이어 글로브",
+    "category": "three",
+    "description": "드래그로 회전시킬 수 있는 라인형 글로브",
+    "tags": [
+      "threejs",
+      "orbit",
+      "globe",
+      "wireframe"
+    ],
+    "useWhen": [
+      "데이터 네트워크/글로벌 서비스 비주얼"
+    ],
+    "avoidWhen": [
+      "접근성을 위해 정적 지도가 필요한 경우"
+    ],
+    "dependencies": [
+      "three",
+      "@react-three/fiber",
+      "@react-three/drei"
+    ],
+    "source": "components/atlas/wire-globe.tsx",
+    "complexity": "high",
+    "status": "ready",
+    "performance": "high",
+    "componentName": "WireGlobe"
+  },
+  {
+    "id": "SHD-001",
+    "slug": "liquid-shader",
+    "name": "Liquid Shader",
+    "nameKo": "리퀴드 셰이더",
+    "category": "shader",
+    "description": "GPU 셰이더 기반으로 부드럽게 흐르는 컬러 장면",
+    "tags": [
+      "shader",
+      "glsl",
+      "liquid",
+      "gradient",
+      "fluid",
+      "gpu"
+    ],
+    "useWhen": [
+      "배경의 유동적인 추상 비주얼"
+    ],
+    "avoidWhen": [
+      "저사양 장치에서 많은 셰이더를 동시 표시"
+    ],
+    "dependencies": [
+      "three",
+      "@react-three/fiber"
+    ],
+    "source": "components/atlas/liquid-shader.tsx",
+    "complexity": "high",
+    "status": "ready",
+    "performance": "high",
+    "componentName": "LiquidShader"
+  },
+  {
+    "id": "SHD-002",
+    "slug": "wave-grid-shader",
+    "name": "Wave Grid Shader",
+    "nameKo": "웨이브 그리드 셰이더",
+    "category": "shader",
+    "description": "버텍스 변형으로 물결치는 격자면",
+    "tags": [
+      "shader",
+      "vertex",
+      "grid",
+      "wave",
+      "plane",
+      "gpu"
+    ],
+    "useWhen": [
+      "기술 기반 제품의 추상적 모션 배경"
+    ],
+    "avoidWhen": [
+      "인풋이 많은 생산성 UI에서 집중을 방해할 때"
+    ],
+    "dependencies": [
+      "three",
+      "@react-three/fiber"
+    ],
+    "source": "components/atlas/wave-grid-shader.tsx",
+    "complexity": "high",
+    "status": "ready",
+    "performance": "high",
+    "componentName": "WaveGridShader"
+  },
+  {
+    "id": "TYP-001",
+    "slug": "gradient-heading",
+    "name": "Gradient Heading",
+    "nameKo": "그라디언트 타이포",
+    "category": "typography",
+    "description": "그라디언트 색상이 흐르는 대형 제목",
+    "tags": [
+      "typography",
+      "gradient",
+      "hero",
+      "heading"
+    ],
+    "useWhen": [
+      "브랜드 메시지나 주요 챕터 제목"
+    ],
+    "avoidWhen": [
+      "정보량이 많은 표나 긴 본문"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/gradient-heading.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "GradientHeading"
+  },
+  {
+    "id": "TYP-002",
+    "slug": "outline-type",
+    "name": "Outline Typography",
+    "nameKo": "아웃라인 타이포",
+    "category": "typography",
+    "description": "채움과 외곽선 대비를 이용한 대형 문구",
+    "tags": [
+      "typography",
+      "outline",
+      "display",
+      "brutalist"
+    ],
+    "useWhen": [
+      "강한 시각적 인상이 필요한 포스터나 히어로"
+    ],
+    "avoidWhen": [
+      "문장형 본문 및 작은 텍스트"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/outline-type.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "OutlineTypography"
+  },
+  {
+    "id": "TYP-003",
+    "slug": "typewriter-title",
+    "name": "Typewriter Title",
+    "nameKo": "타이핑 제목",
+    "category": "typography",
+    "description": "타이핑 효과로 메시지를 순차 노출",
+    "tags": [
+      "typography",
+      "typewriter",
+      "terminal"
+    ],
+    "useWhen": [
+      "프로그래밍/AI 컨셉 소개 및 짧은 상태 메시지"
+    ],
+    "avoidWhen": [
+      "정확한 문구를 즉시 읽어야 하는 핵심 정보"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/typewriter-title.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "TypewriterTitle"
+  },
+  {
+    "id": "DAT-001",
+    "slug": "sparkline-chart",
+    "name": "Sparkline Chart",
+    "nameKo": "스파크라인 차트",
+    "category": "data",
+    "description": "맥락을 적게 차지하는 미니 추세선",
+    "tags": [
+      "chart",
+      "sparkline",
+      "analytics",
+      "data"
+    ],
+    "useWhen": [
+      "KPI 카드에 최근 추세를 함께 표시"
+    ],
+    "avoidWhen": [
+      "자세한 축과 수치가 필요한 정밀 분석"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/sparkline-chart.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "SparklineChart"
+  },
+  {
+    "id": "DAT-002",
+    "slug": "activity-heatmap",
+    "name": "Activity Heatmap",
+    "nameKo": "활동 히트맵",
+    "category": "data",
+    "description": "반복된 활동량을 색상 강도로 나타내는 격자",
+    "tags": [
+      "heatmap",
+      "calendar",
+      "activity",
+      "data"
+    ],
+    "useWhen": [
+      "일별 기록과 기여도 패턴을 요약"
+    ],
+    "avoidWhen": [
+      "정밀한 수치 비교에 색상만 사용하는 경우"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/activity-heatmap.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "ActivityHeatmap"
+  },
+  {
+    "id": "DAT-003",
+    "slug": "radial-gauge",
+    "name": "Radial Gauge",
+    "nameKo": "원형 게이지",
+    "category": "data",
+    "description": "백분율 목표 달성도를 원형으로 표시",
+    "tags": [
+      "radial",
+      "gauge",
+      "progress",
+      "dashboard"
+    ],
+    "useWhen": [
+      "목표 달성률 또는 점유율 하나를 강조"
+    ],
+    "avoidWhen": [
+      "정확한 다항목 분포를 보여주는 분석"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/radial-gauge.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "RadialGauge"
+  },
+  {
+    "id": "BG-001",
+    "slug": "aurora-background",
+    "name": "Aurora Background",
+    "nameKo": "오로라 배경",
+    "category": "background",
+    "description": "빛의 막이 흐르는 듯한 다층 그라디언트 배경",
+    "tags": [
+      "aurora",
+      "gradient",
+      "background",
+      "animated"
+    ],
+    "useWhen": [
+      "미래지향적 포트폴리오와 프로모션 섹션"
+    ],
+    "avoidWhen": [
+      "텍스트 대비를 유지하기 어려운 콘텐츠"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/aurora-background.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "AuroraBackground"
+  },
+  {
+    "id": "BG-002",
+    "slug": "dot-grid",
+    "name": "Dot Grid",
+    "nameKo": "도트 그리드",
+    "category": "background",
+    "description": "일정한 간격의 점으로 공간감을 주는 배경",
+    "tags": [
+      "dot",
+      "grid",
+      "texture",
+      "pattern"
+    ],
+    "useWhen": [
+      "개발자 도구 화면이나 미니멀 인터페이스"
+    ],
+    "avoidWhen": [
+      "이미 복잡한 데이터 차트 위"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/dot-grid.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "DotGrid"
+  },
+  {
+    "id": "BG-003",
+    "slug": "mesh-gradient",
+    "name": "Mesh Gradient",
+    "nameKo": "메시 그라디언트",
+    "category": "background",
+    "description": "여러 색상 영역이 겹쳐지는 추상 배경",
+    "tags": [
+      "mesh",
+      "gradient",
+      "abstract",
+      "background"
+    ],
+    "useWhen": [
+      "랜딩 배경과 콘텐츠의 부드러운 구분"
+    ],
+    "avoidWhen": [
+      "시각적 복잡성이 높은 상세 관리화면"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/mesh-gradient.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "MeshGradient"
+  },
+  {
+    "id": "INT-001",
+    "slug": "command-palette",
+    "name": "Command Palette",
+    "nameKo": "커맨드 팔레트",
+    "category": "interaction",
+    "description": "키보드 중심의 빠른 명령 검색 인터페이스",
+    "tags": [
+      "command",
+      "palette",
+      "keyboard",
+      "search",
+      "cmdk"
+    ],
+    "useWhen": [
+      "데스크톱 워크스페이스의 다기능 명령 실행"
+    ],
+    "avoidWhen": [
+      "버튼 하나로 충분한 단순 인터페이스"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/command-palette.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "CommandPalette"
+  },
+  {
+    "id": "INT-002",
+    "slug": "spotlight-card",
+    "name": "Spotlight Card",
+    "nameKo": "커서 스포트라이트",
+    "category": "interaction",
+    "description": "마우스 위치에 따라 빛이 따라오는 카드",
+    "tags": [
+      "spotlight",
+      "cursor",
+      "hover",
+      "radial",
+      "pointer"
+    ],
+    "useWhen": [
+      "기술 감성 카드와 주요 기능 강조"
+    ],
+    "avoidWhen": [
+      "터치 디바이스만 사용하는 환경"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/spotlight-card.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "SpotlightCard"
+  },
+  {
+    "id": "VCR-001",
+    "slug": "swiss-grid",
+    "name": "Swiss Grid",
+    "nameKo": "스위스 그리드",
+    "category": "visual-core",
+    "description": "절제된 그리드와 높은 타이포그래피 대비",
+    "tags": [
+      "portfolio",
+      "editorial",
+      "grid",
+      "visual core",
+      "theme",
+      "minimal",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "제품·포트폴리오에서 명확한 정보 계층이 필요할 때"
+    ],
+    "avoidWhen": [
+      "감성적인 비정형 일러스트가 주인공인 화면"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/swiss-grid.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Minimal / Grid",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/swiss-grid.css",
+      "palette": {
+        "background": "#f3f2eb",
+        "foreground": "#191919",
+        "accent": "#f04b35"
+      },
+      "font": "IBM Plex Sans, Arial, sans-serif"
+    }
+  },
+  {
+    "id": "VCR-002",
+    "slug": "editorial-minimal",
+    "name": "Editorial Minimal",
+    "nameKo": "에디토리얼 미니멀",
+    "category": "visual-core",
+    "description": "잡지형 레이아웃과 세리프 타이포그래피",
+    "tags": [
+      "editorial",
+      "luxury",
+      "typography",
+      "visual core",
+      "theme",
+      "minimal",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "글과 이미지의 서사에 집중하는 포트폴리오"
+    ],
+    "avoidWhen": [
+      "짧은 액션이 밀집된 운영 대시보드"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/editorial-minimal.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Minimal / Editorial",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/editorial-minimal.css",
+      "palette": {
+        "background": "#f1ebe1",
+        "foreground": "#2a2726",
+        "accent": "#9e6e5c"
+      },
+      "font": "Georgia, serif"
+    }
+  },
+  {
+    "id": "VCR-003",
+    "slug": "quiet-luxury",
+    "name": "Quiet Luxury",
+    "nameKo": "콰이어트 럭셔리",
+    "category": "visual-core",
+    "description": "저채도·고급스러운 여백·정제된 디테일",
+    "tags": [
+      "premium",
+      "refined",
+      "brand",
+      "visual core",
+      "theme",
+      "minimal",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "프리미엄 브랜드와 차분한 개인 브랜딩"
+    ],
+    "avoidWhen": [
+      "어린이용 게임·강한 시각 자극이 필요한 캠페인"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/quiet-luxury.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Minimal / Luxury",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/quiet-luxury.css",
+      "palette": {
+        "background": "#e7e1d8",
+        "foreground": "#252620",
+        "accent": "#88775f"
+      },
+      "font": "Georgia, serif"
+    }
+  },
+  {
+    "id": "VCR-004",
+    "slug": "blueprint",
+    "name": "Blueprint System",
+    "nameKo": "블루프린트",
+    "category": "visual-core",
+    "description": "청사진 라인·치수·엔지니어링 시각 언어",
+    "tags": [
+      "engineering",
+      "cad",
+      "schematic",
+      "visual core",
+      "theme",
+      "minimal",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "개발 프로세스·기술 구조를 보여주는 페이지"
+    ],
+    "avoidWhen": [
+      "친근한 감성 중심의 소비자 서비스"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/blueprint.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Minimal / Technical",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/blueprint.css",
+      "palette": {
+        "background": "#0d2849",
+        "foreground": "#e0f4ff",
+        "accent": "#63cbff"
+      },
+      "font": "Consolas, monospace"
+    }
+  },
+  {
+    "id": "VCR-005",
+    "slug": "cyberpunk",
+    "name": "Cyberpunk",
+    "nameKo": "사이버펑크",
+    "category": "visual-core",
+    "description": "고대비 네온·글리치·어두운 도시감",
+    "tags": [
+      "neon",
+      "sci-fi",
+      "glitch",
+      "visual core",
+      "theme",
+      "futuristic",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "게임·AI 실험 작품의 강렬한 히어로"
+    ],
+    "avoidWhen": [
+      "가독성이 최우선인 긴 문서와 업무 화면"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/cyberpunk.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Futuristic / Neon",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/cyberpunk.css",
+      "palette": {
+        "background": "#080d19",
+        "foreground": "#f0feff",
+        "accent": "#ff3cb1"
+      },
+      "font": "Arial, sans-serif"
+    }
+  },
+  {
+    "id": "VCR-006",
+    "slug": "cyber-minimal",
+    "name": "Cyber Minimal",
+    "nameKo": "사이버 미니멀",
+    "category": "visual-core",
+    "description": "저채도 다크 테크·얇은 테두리와 절제된 글로우",
+    "tags": [
+      "terminal",
+      "hud",
+      "dark",
+      "ai",
+      "visual core",
+      "theme",
+      "futuristic",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "AI 서비스·개발자 포트폴리오의 기술적 신뢰감"
+    ],
+    "avoidWhen": [
+      "따뜻한 감정·일상 라이프스타일 브랜딩"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/cyber-minimal.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Futuristic / Technical",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/cyber-minimal.css",
+      "palette": {
+        "background": "#101822",
+        "foreground": "#ebf8fb",
+        "accent": "#4de5cf"
+      },
+      "font": "Arial, sans-serif"
+    }
+  },
+  {
+    "id": "VCR-007",
+    "slug": "liquid-chrome",
+    "name": "Liquid Chrome",
+    "nameKo": "리퀴드 크롬",
+    "category": "visual-core",
+    "description": "금속성 곡면과 미래형 반사 질감",
+    "tags": [
+      "metal",
+      "liquid",
+      "silver",
+      "glossy",
+      "visual core",
+      "theme",
+      "futuristic",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "3D 오브젝트·제품 런칭의 강한 비주얼"
+    ],
+    "avoidWhen": [
+      "정보 밀도 높은 폼과 회계 데이터 표"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/liquid-chrome.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Futuristic / Chrome",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/liquid-chrome.css",
+      "palette": {
+        "background": "#15131f",
+        "foreground": "#f9f5fc",
+        "accent": "#b7a8ff"
+      },
+      "font": "Arial, sans-serif"
+    }
+  },
+  {
+    "id": "VCR-008",
+    "slug": "retro-terminal",
+    "name": "Retro Terminal",
+    "nameKo": "레트로 터미널",
+    "category": "visual-core",
+    "description": "인광 그린 모노스페이스와 CRT 감성",
+    "tags": [
+      "crt",
+      "terminal",
+      "monochrome",
+      "hacker",
+      "visual core",
+      "theme",
+      "futuristic",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "개발 도구·개발자 자기소개·실험 프로젝트"
+    ],
+    "avoidWhen": [
+      "비기술 사용자를 위한 일반 결제 흐름"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/retro-terminal.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Futuristic / Retro",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/retro-terminal.css",
+      "palette": {
+        "background": "#09140d",
+        "foreground": "#a9f7a7",
+        "accent": "#6fe89c"
+      },
+      "font": "Consolas, monospace"
+    }
+  },
+  {
+    "id": "VCR-009",
+    "slug": "y2k",
+    "name": "Y2K Pop",
+    "nameKo": "Y2K 팝",
+    "category": "visual-core",
+    "description": "메탈릭·버블·톡톡 튀는 2000년대 감성",
+    "tags": [
+      "y2k",
+      "2000s",
+      "bubbly",
+      "retro",
+      "visual core",
+      "theme",
+      "retro",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "음악·패션·크리에이티브 페이지"
+    ],
+    "avoidWhen": [
+      "차분한 의료·금융 서비스"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/y2k.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Retro / Pop",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/y2k.css",
+      "palette": {
+        "background": "#f4e9ff",
+        "foreground": "#2b1852",
+        "accent": "#eb58df"
+      },
+      "font": "Arial, sans-serif"
+    }
+  },
+  {
+    "id": "VCR-010",
+    "slug": "frutiger-aero",
+    "name": "Frutiger Aero",
+    "nameKo": "프루티거 에어로",
+    "category": "visual-core",
+    "description": "맑은 푸른 하늘·초록 언덕·유리 질감",
+    "tags": [
+      "aero",
+      "glossy",
+      "nature",
+      "nostalgia",
+      "visual core",
+      "theme",
+      "retro",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "밝고 친근한 복고 테크 소개"
+    ],
+    "avoidWhen": [
+      "극도로 엄격한 엔터프라이즈 관리 UI"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/frutiger-aero.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Retro / Aero",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/frutiger-aero.css",
+      "palette": {
+        "background": "#d6f4fb",
+        "foreground": "#083e5f",
+        "accent": "#06a5ba"
+      },
+      "font": "Arial, sans-serif"
+    }
+  },
+  {
+    "id": "VCR-011",
+    "slug": "vaporwave",
+    "name": "Vaporwave",
+    "nameKo": "베이퍼웨이브",
+    "category": "visual-core",
+    "description": "보랏빛 그라디언트·해변 석양·레트로 그리드",
+    "tags": [
+      "synthwave",
+      "sunset",
+      "neon",
+      "retro",
+      "visual core",
+      "theme",
+      "retro",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "음악·문화·개인 실험 작품의 테마"
+    ],
+    "avoidWhen": [
+      "업무 보고서나 장문의 정보 표"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/vaporwave.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Retro / Synth",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/vaporwave.css",
+      "palette": {
+        "background": "#251744",
+        "foreground": "#fce4ff",
+        "accent": "#f888c5"
+      },
+      "font": "Arial, sans-serif"
+    }
+  },
+  {
+    "id": "VCR-012",
+    "slug": "memphis-pop",
+    "name": "Memphis Pop",
+    "nameKo": "멤피스 팝",
+    "category": "visual-core",
+    "description": "원색·불규칙 도형·과장된 기하학 패턴",
+    "tags": [
+      "memphis",
+      "colorful",
+      "geometric",
+      "visual core",
+      "theme",
+      "retro",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "이벤트·크리에이티브 스튜디오·마이크로사이트"
+    ],
+    "avoidWhen": [
+      "차분한 프리미엄 브랜드 상세 페이지"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/memphis-pop.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Retro / Geometric",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/memphis-pop.css",
+      "palette": {
+        "background": "#fff1c5",
+        "foreground": "#28153c",
+        "accent": "#ff6359"
+      },
+      "font": "Arial, sans-serif"
+    }
+  },
+  {
+    "id": "VCR-013",
+    "slug": "glassmorphism",
+    "name": "Glassmorphism",
+    "nameKo": "글래스모피즘",
+    "category": "visual-core",
+    "description": "흐릿한 배경 위의 반투명 유리 패널",
+    "tags": [
+      "glass",
+      "blur",
+      "translucent",
+      "frosted",
+      "visual core",
+      "theme",
+      "texture",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "레이어 구분이 중요한 랜딩·오버레이"
+    ],
+    "avoidWhen": [
+      "배경 복잡도로 대비 확보가 어려운 정보 화면"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/glassmorphism.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Texture / Glass",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/glassmorphism.css",
+      "palette": {
+        "background": "#162246",
+        "foreground": "#fff",
+        "accent": "#85e4fa"
+      },
+      "font": "Arial, sans-serif"
+    }
+  },
+  {
+    "id": "VCR-014",
+    "slug": "neumorphism",
+    "name": "Neumorphism",
+    "nameKo": "뉴모피즘",
+    "category": "visual-core",
+    "description": "압출·음각처럼 보이는 부드러운 그림자",
+    "tags": [
+      "soft-ui",
+      "embossed",
+      "shadow",
+      "visual core",
+      "theme",
+      "texture",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "작은 컨트롤·실험적인 설정 패널"
+    ],
+    "avoidWhen": [
+      "접근성이 중요한 저대비 버튼·긴 폼"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/neumorphism.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Texture / Soft",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/neumorphism.css",
+      "palette": {
+        "background": "#e4e9f3",
+        "foreground": "#344765",
+        "accent": "#6781e7"
+      },
+      "font": "Arial, sans-serif"
+    }
+  },
+  {
+    "id": "VCR-015",
+    "slug": "claymorphism",
+    "name": "Claymorphism",
+    "nameKo": "클레이모피즘",
+    "category": "visual-core",
+    "description": "폭신한 3D 카드·크고 둥근 반경",
+    "tags": [
+      "clay",
+      "rounded",
+      "playful",
+      "3d",
+      "visual core",
+      "theme",
+      "texture",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "교육·친근한 서비스·가벼운 온보딩"
+    ],
+    "avoidWhen": [
+      "고밀도 기업 운영 데이터 화면"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/claymorphism.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Texture / Clay",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/claymorphism.css",
+      "palette": {
+        "background": "#f7ebdf",
+        "foreground": "#503f58",
+        "accent": "#ea829c"
+      },
+      "font": "Arial, sans-serif"
+    }
+  },
+  {
+    "id": "VCR-016",
+    "slug": "neo-brutalism",
+    "name": "Neo Brutalism",
+    "nameKo": "네오 브루탈리즘",
+    "category": "visual-core",
+    "description": "굵은 블랙 테두리·하드 섀도·강렬한 색",
+    "tags": [
+      "brutalist",
+      "bold",
+      "hard-shadow",
+      "graphic",
+      "visual core",
+      "theme",
+      "texture",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "창의적인 스타트업·작품 포트폴리오"
+    ],
+    "avoidWhen": [
+      "조용하고 엄숙한 브랜드 이미지"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/neo-brutalism.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Texture / Bold",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/neo-brutalism.css",
+      "palette": {
+        "background": "#ffed77",
+        "foreground": "#101010",
+        "accent": "#f56c74"
+      },
+      "font": "Arial Black, Arial, sans-serif"
+    }
+  },
+  {
+    "id": "VCR-017",
+    "slug": "dark-academia",
+    "name": "Dark Academia",
+    "nameKo": "다크 아카데미아",
+    "category": "visual-core",
+    "description": "고서·서재·호박색 조명·진한 갈색",
+    "tags": [
+      "library",
+      "vintage",
+      "books",
+      "moody",
+      "visual core",
+      "theme",
+      "atmospheric",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "글쓰기·문화·철학 중심 프로젝트"
+    ],
+    "avoidWhen": [
+      "밝고 즉각적인 행동 중심 모바일 앱"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/dark-academia.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Atmospheric / Literary",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/dark-academia.css",
+      "palette": {
+        "background": "#191a15",
+        "foreground": "#e9dfc5",
+        "accent": "#ae8958"
+      },
+      "font": "Georgia, serif"
+    }
+  },
+  {
+    "id": "VCR-018",
+    "slug": "solarpunk",
+    "name": "Solarpunk",
+    "nameKo": "솔라펑크",
+    "category": "visual-core",
+    "description": "식물의 생명력과 녹색 미래 기술",
+    "tags": [
+      "eco",
+      "green",
+      "future",
+      "sustainable",
+      "visual core",
+      "theme",
+      "atmospheric",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "환경·건축·지속가능성 테마"
+    ],
+    "avoidWhen": [
+      "고대비 네온 게임 커뮤니티"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/solarpunk.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Atmospheric / Eco",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/solarpunk.css",
+      "palette": {
+        "background": "#eff6d8",
+        "foreground": "#173e29",
+        "accent": "#5c9c59"
+      },
+      "font": "Arial, sans-serif"
+    }
+  },
+  {
+    "id": "VCR-019",
+    "slug": "organic-nature",
+    "name": "Organic Nature",
+    "nameKo": "오가닉 네이처",
+    "category": "visual-core",
+    "description": "자연색·곡선·종이 질감·정돈된 여유",
+    "tags": [
+      "organic",
+      "wabi-sabi",
+      "paper",
+      "botanical",
+      "visual core",
+      "theme",
+      "atmospheric",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "웰니스·사진·자연스러운 개인 브랜드"
+    ],
+    "avoidWhen": [
+      "사이버 보안 콘솔과 트레이딩 UI"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/organic-nature.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Atmospheric / Nature",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/organic-nature.css",
+      "palette": {
+        "background": "#eee7d8",
+        "foreground": "#3a4534",
+        "accent": "#9caa7c"
+      },
+      "font": "Georgia, serif"
+    }
+  },
+  {
+    "id": "VCR-020",
+    "slug": "dreamcore",
+    "name": "Dreamcore",
+    "nameKo": "드림코어",
+    "category": "visual-core",
+    "description": "몽환적인 소프트 포커스·빛 번짐",
+    "tags": [
+      "dream",
+      "ethereal",
+      "blur",
+      "surreal",
+      "visual core",
+      "theme",
+      "atmospheric",
+      "비주얼 코어",
+      "스타일"
+    ],
+    "useWhen": [
+      "아트·영상·감성적인 스토리텔링"
+    ],
+    "avoidWhen": [
+      "명확한 수치 판단이 필요한 분석 대시보드"
+    ],
+    "dependencies": [],
+    "source": "styles/visual-cores/dreamcore.css",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "VisualCorePreview",
+    "visualCore": {
+      "family": "Atmospheric / Dream",
+      "base": "styles/visual-cores/base.css",
+      "preset": "styles/visual-cores/dreamcore.css",
+      "palette": {
+        "background": "#211e39",
+        "foreground": "#fff1fc",
+        "accent": "#ebaee7"
+      },
+      "font": "Georgia, serif"
+    }
+  },
+  {
+    "id": "MOT-006",
+    "slug": "orbit-reveal",
+    "name": "Orbit Reveal",
+    "nameKo": "카드 궤도 전환",
+    "category": "motion",
+    "description": "한곳에 모인 카드가 원형으로 펼쳐지고 다시 모이는 전환",
+    "tags": [
+      "orbit",
+      "reveal",
+      "card",
+      "모션"
+    ],
+    "useWhen": [
+      "적은 수의 카드로 선택지나 구성 요소를 소개할 때"
+    ],
+    "avoidWhen": [
+      "텍스트가 길거나 카드가 많아 원 둘레의 공간이 부족할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/orbit-reveal.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "OrbitReveal",
+    "guide": {
+      "tryIt": "카드 펼치기를 누르면 겹친 카드가 원 둘레에 배치됩니다. 같은 버튼으로 접을 수 있습니다. 컬러 스튜디오에서는 펼친 색상 카드를 선택해 색상값을 확인할 수 있습니다.",
+      "reuse": "OrbitReveal의 cards에 표시할 노드를 전달하세요. 적은 수의 짧은 카드에 적합하며, 원본에서 쓰인 이미지와 브랜드는 체험에 포함되지 않습니다. onSelect를 전달하면 각 카드를 선택할 수 있습니다."
+    }
+  },
+  {
+    "id": "INT-003",
+    "slug": "magnetic-player",
+    "name": "Magnetic Player",
+    "nameKo": "마그네틱 카드 플레이어",
+    "category": "interaction",
+    "description": "포인터와 키보드로 펼치는 카드와 일시정지 가능한 파형을 결합한 인터랙션",
+    "tags": [
+      "magnetic",
+      "cards",
+      "wave",
+      "interaction"
+    ],
+    "useWhen": [
+      "여러 비주얼 카드를 하나의 인터랙션으로 소개할 때"
+    ],
+    "avoidWhen": [
+      "실제 음원 재생이나 오디오 분석이 필요할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/magnetic-demo.tsx",
+    "complexity": "medium",
+    "performance": "low",
+    "status": "ready",
+    "componentName": "MagneticDemo",
+    "guide": {
+      "tryIt": "포인터를 올리면 카드가 펼쳐집니다. 중앙 버튼을 누르면 펼침 상태를 고정하고, 파형 버튼으로 파형을 멈출 수 있습니다. 펼친 카드에서 트랙을 고르면 제목과 파형 모양이 바뀝니다.",
+      "reuse": "MagneticDemo와 함께 CSS 파일을 가져오세요. 현재 파형은 CSS 모션 예시이며 음원과 연결되지 않습니다. 트랙 선택은 시각적 상태이며 음원을 재생하지 않습니다."
+    }
+  },
+  {
+    "id": "INT-004",
+    "slug": "stack-carousel",
+    "name": "Stack Carousel",
+    "nameKo": "스택 캐러셀",
+    "category": "interaction",
+    "description": "앞뒤로 겹친 카드를 스와이프·버튼·방향키로 넘깁니다.",
+    "tags": [
+      "stack-carousel",
+      "interaction"
+    ],
+    "useWhen": [
+      "작품이나 상품을 한 장씩 비교할 때"
+    ],
+    "avoidWhen": [
+      "여러 항목을 한꺼번에 비교할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/stack-carousel.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "StackCarousel",
+    "guide": {
+      "tryIt": "북쪽 해안 카드를 천천히 왼쪽으로 밀어보세요. 짧게 밀면 돌아오고, 충분히 밀면 다음 카드로 넘어갑니다. 카드 영역에 초점을 둔 뒤 좌우 방향키도 사용할 수 있습니다.",
+      "reuse": "StackCarousel의 slides에 React 노드를 순서대로 전달하세요. 마지막 카드 다음에는 첫 카드로 돌아갑니다. 이전·다음 버튼과 위치 표시는 CMP-015가 담당합니다."
+    }
+  },
+  {
+    "id": "INT-005",
+    "slug": "receipt-printer",
+    "name": "Receipt Printer",
+    "nameKo": "영수증 출력 전환",
+    "category": "interaction",
+    "description": "테스트 결제 후 주문 내역이 종이 영수증처럼 나옵니다.",
+    "tags": [
+      "receipt-printer",
+      "interaction"
+    ],
+    "useWhen": [
+      "주문 확인 결과를 보여줄 때"
+    ],
+    "avoidWhen": [
+      "실제 결제 처리나 영수증 발급이 필요할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/receipt-printer.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "ReceiptPrinter",
+    "guide": {
+      "tryIt": "요청 실패 스위치를 켜고 주문 확인을 눌러 실패 상태를 본 뒤, 스위치를 끄고 다시 시도하세요.",
+      "reuse": "onConfirm에 Promise를 반환하는 함수를 전달하면 성공 후 영수증을 보여주고, 실패 시 재시도 버튼을 표시합니다."
+    }
+  },
+  {
+    "id": "INT-006",
+    "slug": "basket-dropzone",
+    "name": "Basket Dropzone",
+    "nameKo": "농구 파일 드롭존",
+    "category": "interaction",
+    "description": "이미지를 선택하거나 놓으면 크기와 파일 종류를 로컬에서 검증합니다.",
+    "tags": [
+      "basket-dropzone",
+      "interaction"
+    ],
+    "useWhen": [
+      "이미지 선택 결과를 즉시 알려줄 때"
+    ],
+    "avoidWhen": [
+      "서버 업로드나 보안 검사가 필요할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/basket-dropzone.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "BasketDropzone",
+    "guide": {
+      "tryIt": "이미지를 선택하거나 끌어놓으세요. 한도 안의 이미지는 바구니 애니메이션과 파일명이 표시되고, 텍스트 파일이나 초과 용량의 파일은 거부됩니다. 선택한 이미지의 미리보기가 나타나면 제거 버튼으로 초기화할 수 있습니다.",
+      "reuse": "BasketDropzone의 maxBytes로 제한을 정하세요. 브라우저가 제공한 파일 유형과 크기를 검사합니다. 업로드 처리와 서버 검증은 사용하는 서비스에서 연결해야 합니다. onFileAccepted로 검사에 통과한 파일을 전달받을 수 있습니다."
+    }
+  },
+  {
+    "id": "INT-007",
+    "slug": "liquid-tabs",
+    "name": "Liquid Tabs",
+    "nameKo": "유동형 탭",
+    "category": "interaction",
+    "description": "늘어나는 표시기로 탭 선택을 알려주고 콘텐츠를 전환합니다.",
+    "tags": [
+      "liquid-tabs",
+      "interaction"
+    ],
+    "useWhen": [
+      "관련 화면의 탭을 전환할 때"
+    ],
+    "avoidWhen": [
+      "내용을 모두 동시에 보여줘야 할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/liquid-tabs.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "LiquidTabs",
+    "guide": {
+      "tryIt": "탐색·저장·일정을 선택해 표시기와 본문이 함께 바뀌는지 보세요. 탭에 초점을 두면 방향키와 Home·End로 이동할 수 있습니다. 탭을 여러 번 바꿔도 선택할 때마다 표시기가 다시 늘어납니다.",
+      "reuse": "LiquidTabs의 tabs에 label과 content를 넘기세요. 관련 내용을 같은 화면 안에서 나눌 때 쓰고, 개별 주소가 필요한 페이지 이동에는 라우팅을 연결하세요. onChange로 선택된 인덱스를 전달받을 수 있습니다."
+    }
+  },
+  {
+    "id": "INT-008",
+    "slug": "magnifying-dock",
+    "name": "Magnifying Dock",
+    "nameKo": "확대형 도크",
+    "category": "interaction",
+    "description": "가리키거나 초점을 맞춘 도구 주변이 확대되고 선택한 패널이 열립니다.",
+    "tags": [
+      "magnifying-dock",
+      "interaction"
+    ],
+    "useWhen": [
+      "좁은 도구 모음에서 현재 항목을 강조할 때"
+    ],
+    "avoidWhen": [
+      "정밀하게 붙은 조작 대상의 크기를 유지해야 할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/magnifying-dock.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "MagnifyingDock",
+    "guide": {
+      "tryIt": "도구 위에 포인터나 키보드 초점을 놓으면 해당 도구와 이웃 아이콘이 확대됩니다. 선택하면 위 패널이 바뀝니다. 초점이 있는 도크에서 좌우 방향키로 도구를 이동하고 Enter로 선택할 수 있습니다.",
+      "reuse": "MagnifyingDock의 tools에 label, icon, content를 지정하세요. 현재 선택 상태는 컴포넌트 안에 있고, 도구 수가 많으면 좁은 화면에서 여러 줄로 배치됩니다. 포인터가 버튼 안에서 이동하면 이웃 아이콘의 확대 정도도 달라집니다."
+    }
+  },
+  {
+    "id": "MOT-007",
+    "slug": "cursor-trail",
+    "name": "Cursor Trail",
+    "nameKo": "포인터 이미지 잔상",
+    "category": "motion",
+    "description": "포인터 경로에 작은 이미지가 남았다 사라집니다.",
+    "tags": [
+      "cursor-trail",
+      "motion"
+    ],
+    "useWhen": [
+      "작품이나 캠페인의 탐색 화면에 짧은 반응을 넣을 때"
+    ],
+    "avoidWhen": [
+      "정확한 포인터 조작이 필요한 작업 화면"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/cursor-trail.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "CursorTrail",
+    "guide": {
+      "tryIt": "영역 위로 포인터를 움직이면 일정 간격으로 이미지가 남았다 사라집니다. 터치나 키보드에서는 버튼으로 한 장씩 남길 수 있습니다. 빠르게 이동할 때도 중간 경로를 채우고, 흔적 지우기로 남은 이미지를 지울 수 있습니다.",
+      "reuse": "CursorTrail의 images에 사용 가능한 이미지 경로를 전달하세요. 잔상은 최대 12개로 제한되며, 모션 줄이기에서는 포인터를 따라 생성되는 잔상이 꺼집니다. 한 번의 포인터 이동에서 최대 5개 지점을 보간합니다."
+    }
+  },
+  {
+    "id": "INT-009",
+    "slug": "profile-expansion",
+    "name": "Profile Expansion",
+    "nameKo": "프로필 카드 펼침",
+    "category": "interaction",
+    "description": "프로필 요약에서 소개 영역을 펼치고 접습니다.",
+    "tags": [
+      "profile-expansion",
+      "interaction"
+    ],
+    "useWhen": [
+      "목록 맥락을 유지하면서 소개를 열 때"
+    ],
+    "avoidWhen": [
+      "상세 정보가 길어 독립 페이지가 필요할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/profile-expansion.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "ProfileExpansion",
+    "guide": {
+      "tryIt": "소개 펼치기를 누르면 카드 아래에 소개가 나타납니다. 다시 누르면 접히고, 접힌 내용은 키보드 탐색에서도 제외됩니다. 소개 안에서 Escape를 누르면 접히고 펼치기 버튼으로 초점이 돌아옵니다.",
+      "reuse": "ProfileExpansion의 name과 role을 지정하고 소개나 링크를 children으로 전달하세요. 현재 피드 예시는 짧은 소개를 사용합니다. 접힌 상태에서 소개의 링크에 키보드 초점이 들어가지 않습니다."
+    }
+  },
+  {
+    "id": "MOT-008",
+    "slug": "kinetic-steps",
+    "name": "Kinetic Steps",
+    "nameKo": "단계별 타이포그래피",
+    "category": "motion",
+    "description": "이전·다음으로 단계를 선택하면 제목과 설명이 전환됩니다.",
+    "tags": [
+      "kinetic-steps",
+      "motion"
+    ],
+    "useWhen": [
+      "과정이나 온보딩을 순차적으로 안내할 때"
+    ],
+    "avoidWhen": [
+      "사용자가 여러 단계를 동시에 비교해야 할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/kinetic-steps.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "KineticSteps",
+    "guide": {
+      "tryIt": "다음 단계를 누르면 단계 번호, 제목, 설명이 바뀝니다. 첫 단계와 마지막 단계에서 해당 이동 버튼이 비활성화됩니다. 단계 점으로 건너뛸 수 있고 진행률도 함께 갱신됩니다.",
+      "reuse": "KineticSteps의 steps에 title과 description을 순서대로 전달하세요. 단계 전환을 시연하며 폼 검증과 진행 상태 저장은 별도로 연결합니다. 단계 목록만 전달하면 단계 이동 버튼과 진행률이 생성됩니다."
+    }
+  },
+  {
+    "id": "MOT-009",
+    "slug": "image-glitch",
+    "name": "Image Glitch",
+    "nameKo": "이미지 글리치 전환",
+    "category": "motion",
+    "description": "이미지 교체 시 짧은 색조 분리와 위치 어긋남을 보여줍니다.",
+    "tags": [
+      "image-glitch",
+      "motion"
+    ],
+    "useWhen": [
+      "실험적인 이미지나 포스터를 전환할 때"
+    ],
+    "avoidWhen": [
+      "색과 형태를 정확히 확인해야 할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/image-glitch.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "ImageGlitch",
+    "guide": {
+      "tryIt": "이미지 전환을 누르면 새 이미지의 가로 띠가 서로 반대 방향으로 짧게 어긋났다 정렬됩니다. 모션 줄이기에서는 이미지가 바로 교체됩니다.",
+      "reuse": "ImageGlitch의 images에 src와 alt를 전달하세요. 전환 레이어는 장식용이며 보조기기는 새 이미지 설명을 읽을 수 있습니다."
+    }
+  },
+  {
+    "id": "MOT-010",
+    "slug": "popcorn-burst",
+    "name": "Popcorn Burst",
+    "nameKo": "버튼 파티클 반응",
+    "category": "motion",
+    "description": "완료 상태가 되면 버튼 주변에 입자가 퍼집니다.",
+    "tags": [
+      "popcorn-burst",
+      "motion"
+    ],
+    "useWhen": [
+      "가벼운 저장이나 북마크 완료를 알릴 때"
+    ],
+    "avoidWhen": [
+      "진행 상황이나 오류를 정확하게 알려야 할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/popcorn-burst.tsx",
+    "complexity": "medium",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "PopcornBurst",
+    "guide": {
+      "tryIt": "북마크를 누르면 버튼이 선택 상태로 바뀌며 입자가 퍼집니다. 다시 누르면 선택을 해제합니다. 북마크 상태는 요청 성공 뒤에 바뀌고 실패하면 재시도할 수 있습니다.",
+      "reuse": "PopcornBurst에 label, doneLabel, onSave를 넘길 수 있습니다. 현재 선택은 컴포넌트 상태이며 서버 저장이나 실패 처리는 사용하는 화면에서 연결해야 합니다. onChange에 비동기 저장 함수를 제공하면 성공할 때만 완료 상태와 입자 효과가 표시됩니다."
+    }
+  },
+  {
+    "id": "CMP-015",
+    "slug": "carousel-navigation",
+    "name": "Carousel Navigation",
+    "nameKo": "캐러셀 페이지 탐색",
+    "category": "component",
+    "description": "이전·다음 조작과 현재 페이지 위치를 제공하는 탐색 컨트롤",
+    "tags": [
+      "carousel",
+      "navigation",
+      "pagination"
+    ],
+    "useWhen": [
+      "여러 카드나 미디어를 한 항목씩 탐색할 때"
+    ],
+    "avoidWhen": [
+      "모든 내용을 한 화면에서 동시에 보여줘야 할 때"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/carousel-navigation.tsx",
+    "complexity": "low",
+    "status": "ready",
+    "performance": "low",
+    "componentName": "CarouselNavigation",
+    "guide": {
+      "tryIt": "이전·다음을 누르면 현재 위치가 갱신됩니다. 항목이 한 개면 버튼은 비활성화됩니다. 번호 점으로 원하는 페이지에 바로 이동할 수 있습니다.",
+      "reuse": "CarouselNavigation에 0부터 시작하는 index와 count를 전달하세요. onMove는 -1 또는 1을 전달하므로 부모가 순환 또는 끝에서 멈추는 방식을 정합니다. controls에는 움직일 영역의 ID를 연결할 수 있습니다. onSelect를 연결하면 2~12개 항목에 바로 이동 버튼이 표시됩니다."
+    }
+  }
+]
