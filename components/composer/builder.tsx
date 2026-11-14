@@ -1,4 +1,5 @@
 'use client';
+import { publicPath } from "@/app/public-path";
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import rawCatalog from '@/data/catalog.json';
@@ -129,7 +130,7 @@ export function ComposerBuilder({sample,incomingBlock}: {sample?: {id:string;tit
  async function copy(value:string,label:string){const ok=await copyText(value);message(ok?`${label} 복사 완료`:'클립보드를 사용할 수 없습니다. 다운로드를 이용해 주세요.')}
  const sizePixels=device==='desktop'?980:device==='tablet'?720:390;
  return <div className="builder-shell">
-  <header className="builder-header"><a className="builder-brand" href="/"><strong>NAVV6</strong><small>자산 라이브러리</small></a><div className="builder-header-center"><span className="builder-live-dot"/> 페이지 빌더 <b>블록 {config.blocks.length}개</b></div><div className="builder-header-right"><button className="builder-btn builder-btn-ghost" type="button" onClick={()=>inputRef.current?.click()}>JSON 불러오기</button><button className="builder-btn builder-btn-secondary" type="button" onClick={downloadConfig}>JSON 저장</button><button className="builder-btn builder-btn-primary" type="button" onClick={()=>showInspector('export')}>코드 내보내기</button></div></header>
+  <header className="builder-header"><a className="builder-brand" href={publicPath("/")}><strong>NAVV6</strong><small>자산 라이브러리</small></a><div className="builder-header-center"><span className="builder-live-dot"/> 페이지 빌더 <b>블록 {config.blocks.length}개</b></div><div className="builder-header-right"><button className="builder-btn builder-btn-ghost" type="button" onClick={()=>inputRef.current?.click()}>JSON 불러오기</button><button className="builder-btn builder-btn-secondary" type="button" onClick={downloadConfig}>JSON 저장</button><button className="builder-btn builder-btn-primary" type="button" onClick={()=>showInspector('export')}>코드 내보내기</button></div></header>
   {(saveStatus==='read-error'||saveStatus==='write-error')&&<div className="builder-save-warning">
    <p role="alert">{saveStatus==='read-error'
     ? '저장된 구성을 읽지 못했습니다. 현재 구성을 저장하면 기존 브라우저 저장본을 덮어쓸 수 있습니다.'
@@ -182,7 +183,7 @@ export function ComposerBuilder({sample,incomingBlock}: {sample?: {id:string;tit
       {saveStatus==='saved'&&<span className="builder-live-dot"/>}
       {saveStatus==='loading'?'저장된 구성 불러오는 중':saveStatus==='saved'?(sample?'예제 작업에 자동 저장됨':'이 브라우저에 자동 저장됨'):saveStatus==='read-error'?'불러오기 실패':'자동 저장 실패'}
      </span>
-     {sample&&<a href="/builder">내 작업 열기</a>}
+     {sample&&<a href={publicPath("/builder")}>내 작업 열기</a>}
     </div>
    </aside>
   </div>

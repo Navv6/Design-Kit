@@ -38,3 +38,13 @@ npm run build
 - [개발 인수인계](HANDOFF.md)와 [작업 지침](AGENTS.md)
 - [페이지 빌더](docs/COMPOSER.md)와 [Visual Core](docs/VISUAL_CORES.md)
 - [검증 기록](docs/VALIDATION.md)과 [개발 백로그](docs/V05_BACKLOG.md)
+
+## GitHub Pages 배포
+
+`main`에 push하면 `.github/workflows/pages.yml`이 정적 export(`output: "export"`)를 빌드해 <https://navv6.github.io/Design-Kit/>에 배포합니다.
+
+- Pages 설정의 Source는 **GitHub Actions**여야 합니다.
+- export 모드는 `ATLAS_PAGES_EXPORT=1`일 때만 켜지고, `NEXT_PUBLIC_BASE_PATH`(Actions에서는 `/Design-Kit`)가 basePath와 `publicPath()`에 쓰입니다. 일반 `npm run dev`/`build`는 영향을 받지 않습니다.
+- `scripts/flatten-segment-payloads.mjs`는 Next 16 export의 중첩 RSC prefetch 파일(`__next.feed/__PAGE__.txt`)을 클라이언트가 요청하는 평탄한 이름(`__next.feed.__PAGE__.txt`)으로 복사합니다. 정적 호스트에는 rewrite가 없기 때문입니다.
+- 로컬 재현(PowerShell): `$env:ATLAS_PAGES_EXPORT='1'; $env:NEXT_PUBLIC_BASE_PATH='/Design-Kit'; npm run build; node scripts/flatten-segment-payloads.mjs out`
+- `/builder`는 정적 페이지이므로 `?sample=`, `?add=` 쿼리는 클라이언트(`useSearchParams`)에서 읽습니다.

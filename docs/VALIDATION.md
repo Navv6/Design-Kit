@@ -209,7 +209,7 @@ Environment used for handoff: Node v22.16.0, npm 10.9.2, globally available Type
 - [ ] WebGL-based Particle Field, Torus Knot, Liquid Shader render and respond on a GPU-capable browser.
 - [ ] WebGL unsupported and reduced-motion fallbacks are tested manually/automatically.
 - [ ] 375/768/1440 responsive, keyboard interaction, screen-reader semantics, editor actions, import/export roundtrip verified in the actual Next runtime.
-- [ ] Deployability and independent exported-site portability; currently not implemented.
+- [x] GitHub Pages static export (2026-11-14): local build with basePath `/Design-Kit` served under a subpath; `/`, `/feed/`, `/builder/?sample=` render, client navigation works, all assets/prefetch payloads 200 after flatten step. WebGL on Pages not separately verified. Independent exported-site portability is still not implemented.
 
 ### Known issues fixed during handoff
 1. Removed a broken import of `../styles/composer.css` from `app/layout.tsx`. The CSS already exists at `components/composer/composer.css` and is imported by the renderer.

@@ -1,18 +1,19 @@
 "use client";
+import { publicPath } from "@/app/public-path";
 export function ExtraThumbnail({id}:{id:string}){
  const t=(s:string)=><span className="mini-txt">{s}</span>;
  switch(id){
  case 'CMP-015': return <div className="riff-carousel-nav"><span>‹</span><span>1 / 3</span><span>›</span></div>;
- case 'INT-004': return <img className="atlas-riff-thumb" src="/feed/stack-carousel.png" alt="" loading="lazy" />;
- case 'INT-005': return <img className="atlas-riff-thumb" src="/feed/receipt-printer.png" alt="" loading="lazy" />;
- case 'INT-006': return <img className="atlas-riff-thumb" src="/feed/basket-dropzone.png" alt="" loading="lazy" />;
- case 'INT-007': return <img className="atlas-riff-thumb" src="/feed/liquid-tabs.png" alt="" loading="lazy" />;
- case 'INT-008': return <img className="atlas-riff-thumb" src="/feed/magnifying-dock.png" alt="" loading="lazy" />;
- case 'MOT-007': return <img className="atlas-riff-thumb" src="/feed/cursor-trail.png" alt="" loading="lazy" />;
- case 'INT-009': return <img className="atlas-riff-thumb" src="/feed/profile-expansion.png" alt="" loading="lazy" />;
- case 'MOT-008': return <img className="atlas-riff-thumb" src="/feed/kinetic-steps.png" alt="" loading="lazy" />;
- case 'MOT-009': return <img className="atlas-riff-thumb" src="/feed/image-glitch.png" alt="" loading="lazy" />;
- case 'MOT-010': return <img className="atlas-riff-thumb" src="/feed/popcorn-burst.png" alt="" loading="lazy" />;
+ case 'INT-004': return <img className="atlas-riff-thumb" src={publicPath("/feed/stack-carousel.png")} alt="" loading="lazy" />;
+ case 'INT-005': return <img className="atlas-riff-thumb" src={publicPath("/feed/receipt-printer.png")} alt="" loading="lazy" />;
+ case 'INT-006': return <img className="atlas-riff-thumb" src={publicPath("/feed/basket-dropzone.png")} alt="" loading="lazy" />;
+ case 'INT-007': return <img className="atlas-riff-thumb" src={publicPath("/feed/liquid-tabs.png")} alt="" loading="lazy" />;
+ case 'INT-008': return <img className="atlas-riff-thumb" src={publicPath("/feed/magnifying-dock.png")} alt="" loading="lazy" />;
+ case 'MOT-007': return <img className="atlas-riff-thumb" src={publicPath("/feed/cursor-trail.png")} alt="" loading="lazy" />;
+ case 'INT-009': return <img className="atlas-riff-thumb" src={publicPath("/feed/profile-expansion.png")} alt="" loading="lazy" />;
+ case 'MOT-008': return <img className="atlas-riff-thumb" src={publicPath("/feed/kinetic-steps.png")} alt="" loading="lazy" />;
+ case 'MOT-009': return <img className="atlas-riff-thumb" src={publicPath("/feed/image-glitch.png")} alt="" loading="lazy" />;
+ case 'MOT-010': return <img className="atlas-riff-thumb" src={publicPath("/feed/popcorn-burst.png")} alt="" loading="lazy" />;
  case 'CMP-004': return <div className="mini-mini"><span className="mini-check">✓</span>{t('Notifications enabled')}</div>;
  case 'CMP-005': return <div className="mini-mini mini-row"><span className="mini-radio on"/><span className="mini-radio"/><span className="mini-radio"/></div>;
  case 'CMP-006': return <div className="mini-segment"><span>Grid</span><span>List</span><span>Board</span></div>;

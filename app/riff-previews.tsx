@@ -1,4 +1,5 @@
 "use client";
+import { publicPath } from "@/app/public-path";
 
 import { useRef, useState } from "react";
 import { CarouselNavigation } from "@/components/atlas/carousel-navigation";
@@ -47,10 +48,10 @@ const riffPreviews: Partial<Record<string, () => React.JSX.Element>> = {
   "INT-006": () => <BasketDropzone />,
   "INT-007": () => <LiquidTabs tabs={[{ label: "탐색", content: <><h3>추천 경로</h3><p>해안 산책로 · 2.4 km</p></> }, { label: "저장", content: <><h3>저장한 장소</h3><p>노을 전망대</p></> }, { label: "일정", content: <><h3>오늘의 일정</h3><p>오후 5시 · 해안 산책</p></> }]} />,
   "INT-008": () => <MagnifyingDock tools={[{ label: "메모", icon: "✎", content: <><h3>메모</h3><p>촬영할 장소 세 곳을 골라보세요.</p></> }, { label: "갤러리", icon: "▧", content: <><h3>갤러리</h3><p>저장한 풍경 이미지가 여기에 표시됩니다.</p></> }, { label: "일정", icon: "◷", content: <><h3>일정</h3><p>오후 5시 · 마지막 촬영</p></> }]} />,
-  "MOT-007": () => <CursorTrail images={["/compositions/editorial-case-study.jpg", "/compositions/neo-brutalist-studio.jpg", "/compositions/cyber-ai-portfolio.jpg"]} />,
+  "MOT-007": () => <CursorTrail images={[publicPath("/compositions/editorial-case-study.jpg"), publicPath("/compositions/neo-brutalist-studio.jpg"), publicPath("/compositions/cyber-ai-portfolio.jpg")]} />,
   "INT-009": () => <ProfileExpansion name="윤서" role="비주얼 디자이너" children={<p>인터랙션과 타이포그래피를 중심으로 작업합니다. 이 프로필 카드는 소개와 작업 분야를 제자리에서 확인하는 예시입니다.</p>} />,
   "MOT-008": () => <KineticSteps steps={[{ title: "관찰", description: "사용자가 실제로 어떻게 탐색하는지 확인합니다." }, { title: "구상", description: "발견한 문제를 화면의 흐름으로 풀어냅니다." }, { title: "검증", description: "사용자가 직접 조작해 보고, 막히는 지점을 고칩니다." }]} />,
-  "MOT-009": () => <ImageGlitch images={[{ src: "/compositions/neo-brutalist-studio.jpg", alt: "네오 브루탈리즘 스튜디오 포스터" }, { src: "/compositions/cyber-ai-portfolio.jpg", alt: "사이버 포트폴리오 포스터" }]} />,
+  "MOT-009": () => <ImageGlitch images={[{ src: publicPath("/compositions/neo-brutalist-studio.jpg"), alt: "네오 브루탈리즘 스튜디오 포스터" }, { src: publicPath("/compositions/cyber-ai-portfolio.jpg"), alt: "사이버 포트폴리오 포스터" }]} />,
   "MOT-010": BookmarkPreview,
 };
 

@@ -1,4 +1,5 @@
 "use client";
+import { publicPath } from "@/app/public-path";
 
 import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
@@ -151,7 +152,7 @@ export function AssetDetails({ asset, onClose }: { asset: Asset; onClose: () => 
           </div>
           <footer className="atlas-inspector-actions">
             {canCompose && (
-              <a className="cb-inline-launch" href={`/builder?add=${encodeURIComponent(asset.id)}`}>빌더에 추가</a>
+              <a className="cb-inline-launch" href={publicPath(`/builder/?add=${encodeURIComponent(asset.id)}`)}>빌더에 추가</a>
             )}
           </footer>
         </div>
