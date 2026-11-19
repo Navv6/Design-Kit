@@ -1210,6 +1210,38 @@
           "target": "components/atlas/riff-interactions.css"
         }
       ]
+    },
+    {
+      "name": "atlas-otp-verify",
+      "type": "registry:component",
+      "title": "OTP Verification",
+      "files": [
+        {
+          "path": "components/atlas/otp-verify.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/otp-verify.css",
+          "type": "registry:file",
+          "target": "components/atlas/otp-verify.css"
+        }
+      ]
+    },
+    {
+      "name": "atlas-perspective-box",
+      "type": "registry:component",
+      "title": "Perspective Box",
+      "files": [
+        {
+          "path": "components/atlas/perspective-box.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/perspective-box.css",
+          "type": "registry:file",
+          "target": "components/atlas/perspective-box.css"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,16 @@
+.perspective-box-demo { box-sizing: border-box; display: grid; width: 100%; gap: 12px; padding: 18px; background: #161d2b; color: #eff4ff; font-family: system-ui,sans-serif; }
+.perspective-box-stage { min-height: 245px; display: grid; place-items: center; perspective: 650px; overflow: hidden; }
+.perspective-box-shape { position: relative; width: 120px; height: 120px; transform-style: preserve-3d; transform: rotateX(var(--box-x)) rotateY(var(--box-y)); transition: transform .12s linear; }
+.perspective-box-shape > div { box-sizing: border-box; position: absolute; inset: 0; display: grid; place-items: center; border: 1px solid #ffffffa0; background: linear-gradient(130deg,#eef5ff, var(--box-color)); color: #111b2b; font-weight: 700; backface-visibility: hidden; }
+.perspective-box-shape > div:nth-child(1) { transform: translateZ(60px); }
+.perspective-box-shape > div:nth-child(2) { transform: rotateY(180deg) translateZ(60px); }
+.perspective-box-shape > div:nth-child(3) { transform: rotateY(90deg) translateZ(60px); }
+.perspective-box-shape > div:nth-child(4) { transform: rotateY(-90deg) translateZ(60px); }
+.perspective-box-shape > div:nth-child(5) { transform: rotateX(90deg) translateZ(60px); }
+.perspective-box-shape > div:nth-child(6) { transform: rotateX(-90deg) translateZ(60px); }
+.perspective-box-demo label { display: grid; gap: 5px; }
+.perspective-box-demo input[type="range"] { width: 100%; }
+.perspective-box-demo button { padding: 8px 12px; background: #304566; color: #fff; border: 1px solid #abb9ce; border-radius: 8px; }
+.perspective-box-demo p { margin: 0; font-size: 13px; }
+.perspective-box-demo :focus-visible { outline: 2px solid #ffdc8b; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { .perspective-box-shape { transition: none; } }

@@ -1,0 +1,21 @@
+.otp-demo { box-sizing: border-box; width: 100%; padding: clamp(14px,4vw,30px); background: #171c29; color: #edf2fc; font-family: system-ui,sans-serif; }
+.otp-demo * { box-sizing: border-box; }
+.otp-demo h3 { margin: 0 0 10px; font-size: 22px; }
+.otp-demo p { font-size: 14px; margin: 8px 0 16px; }
+.otp-fields { display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); gap: clamp(3px,1vw,8px); }
+.otp-fields input { min-width: 0; width: 100%; height: clamp(44px,9vw,66px); border: 2px solid #7183a2; border-radius: 9px; background: #263149; color: white; text-align: center; font: 600 clamp(20px,4vw,32px)/1 system-ui,sans-serif; }
+.otp-fields input:focus-visible,.otp-actions button:focus-visible { outline: 3px solid #e0cb87; outline-offset: 2px; }
+.otp-fields[data-status="invalid"] { animation: otp-shake .34s ease-in-out; }
+.otp-fields[data-status="invalid"] input { border-color: #ff9c99; }
+.otp-fields[data-status="success"] input { animation: otp-wave .5s ease both; border-color: #75d6ae; }
+.otp-fields input:nth-child(2) { animation-delay: .05s; }
+.otp-fields input:nth-child(3) { animation-delay: .1s; }
+.otp-fields input:nth-child(4) { animation-delay: .15s; }
+.otp-fields input:nth-child(5) { animation-delay: .2s; }
+.otp-fields input:nth-child(6) { animation-delay: .25s; }
+.otp-actions { display:flex; flex-wrap:wrap; gap:8px; }
+.otp-actions button { padding:9px 14px; border:1px solid #a4b1c8; border-radius:8px; color:#f4f7ff; background:#30496c; font:inherit; }
+.otp-actions button:disabled { opacity:.5; cursor:default; }
+@keyframes otp-shake { 25%,75% { translate:-5px; } 50% { translate:5px; } }
+@keyframes otp-wave { 50% { translate:0 -7px; background:#19573e; } }
+@media(prefers-reduced-motion:reduce) { .otp-fields,.otp-fields input { animation:none !important; } }

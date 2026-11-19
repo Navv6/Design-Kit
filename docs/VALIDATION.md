@@ -1,5 +1,29 @@
 # Validation Log — NAVV6 Design Atlas
 
+## Daily Riff addition · 2026-11-20
+
+- Reviewed Recent in Chrome. Orbit Avatars overlaps existing orbit behavior. Selected [Figma 3D Box by Hardik Gondhiya](https://www.figma.com/riffs/8aac6753-8de5-4141-9d16-fde11655dc43), whose source description invites changing its six layers and effect preset. Original share image and silent source-video capture are stored at `public/feed/perspective-box.{png,webm}`.
+- Added INT-011 with six CSS faces, independently adjustable X/Y rotation, surface color and reset. The modal explicitly describes substituted CSS gradients and manual rotation. It preserves perspective/depth but does not reproduce Figma's material preset or exact original timing.
+- `npm run check`, `npm run build`, and `npm run typecheck` passed with 14 posts and 75 assets. The existing dynamic filesystem tracing warning remains. Chrome verified source-video time progression, keyboard rotation, reset, nested source/CSS and instruction copy at 375/768/1440px, as well as dark-theme controls. The two registered source files built and ran in a separate Next.js fixture with reduced motion. WebGL is not used.
+- New changes remain local. Previous OTP changes and existing untracked output were preserved. No commit, push or deployment was performed.
+
+## Daily Riff addition · 2026-11-18
+
+- Added [OTP shake and wave by Alejandro Vasquez](https://www.figma.com/riffs/9ccbd3b4-ecdc-40f4-9b1a-fc360292c2d2), discovered in Recent. The creator's description explicitly invites copying and tweaking. Cached its public share image and a silent browser capture of the original video in `public/feed/otp-verify.{png,webm}`.
+- Added INT-010 with six numeric inputs, paste distribution, arrow/Backspace handling, error shake, success wave, reset, async verification callback and failure feedback. Atlas uses substitute copy and styling and the local demo code 123456.
+- `npm run check`, `npm run build`, and `npm run typecheck` passed with 13 posts and 74 assets. Next.js emitted an existing dynamic-filesystem tracing warning for `app/catalog-assets.ts`. Chrome on production port 3051 verified video time advancing, wrong/right code responses, nested ASSET source/CSS and actual instruction copy, preserved success state and modal dismissal at 375/768/1440px. Dark-theme modal and reduced-motion behavior were checked.
+- The two registry files built in a separately installed Next.js fixture on port 3052. Chrome verified its success flow at 375px under reduced motion. GPU testing does not apply to this CSS/HTML interaction. Changes are local and have not been committed or deployed.
+
+## Riffs review · 2026-11-17
+
+- Opened the public Korean Riffs feed in Chrome and switched to Recent. Compared three source IDs against the current feed. [Wavy Interactive Funnel](https://www.figma.com/riffs/f2ecb977-edb3-4412-b510-173676986ee7) is a distinct chart pattern. Its author-published [live preview](https://dirt-candy-00413854.figma.site/) loaded with selectable funnel stages, accent controls and direction switching. The Riff social-image endpoint redirected to the author's profile image. A work-specific original feed image was not verified.
+- The [settings panel redesign](https://www.figma.com/riffs/8dd8a0b7-198b-462c-9caf-6311d424659e) and [3D Photo Floating Gallery](https://www.figma.com/riffs/83cbf6f0-c7bd-4b5e-a2c7-dedb5fc989c4) had video elements in the source Riff. The inspected sharing menu offered a Riff link. A supported Atlas playback source was not verified. No feed entries or ASSETs were registered. Build and UI regression checks did not run because application code did not change.
+
+## Riffs review · 2026-11-15
+
+- Opened the public Korean Riffs feed in Chrome and checked Trending and Recent against the Atlas feed and catalog. In Recent, [sarah’s AI chat micro-interaction](https://www.figma.com/riffs/e8284f25-ebf2-4731-87ec-f31c1e5d1e99) showed a distinct prompt, thinking and streamed-response sequence. Chrome reported a playable 4.03-second source video. The visible share menu offered a Riff link. A supported external video embed or permission to store the video for Atlas was not confirmed.
+- No post or ASSET was added in this run. Source and UI validation did not run because there was no implementation change.
+
 ## Remaining eleven Riff interaction improvements
 
 - CMP-015 direct page selection, INT-003 track selection and waveform variation, MOT-006 selectable orbit cards, INT-005 async checkout failure and retry, INT-006 image preview/removal, INT-007 repeatable tab deformation, INT-008 continuous pointer magnification and arrow-key focus, MOT-007 interpolated/clearable trails, INT-009 Escape collapse and focus return, MOT-008 step jump and progress, and MOT-010 async bookmark failure/retry were exercised in Chrome both in the feed and in a separate Next.js fixture.

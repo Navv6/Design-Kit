@@ -1,4 +1,6 @@
 "use client";
+import { PerspectiveBox } from "@/components/atlas/perspective-box";
+import { OtpVerify } from "@/components/atlas/otp-verify";
 import { publicPath } from "@/app/public-path";
 
 import { useRef, useState } from "react";
@@ -42,6 +44,8 @@ function BookmarkPreview() {
 }
 
 const riffPreviews: Partial<Record<string, () => React.JSX.Element>> = {
+  "INT-011": () => <PerspectiveBox />,
+  "INT-010": () => <OtpVerify />,
   "CMP-015": CarouselNavigationPreview,
   "INT-004": () => <StackCarousel slides={[<><h3>북쪽 해안</h3><p>바다를 따라 이어지는 산책길</p></>, <><h3>숲의 입구</h3><p>나무 사이로 이어지는 오솔길</p></>, <><h3>노을 전망대</h3><p>하루를 마무리하는 전망</p></>]} />,
   "INT-005": ReceiptPreview,

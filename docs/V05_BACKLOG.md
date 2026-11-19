@@ -1,5 +1,9 @@
 # v0.5 Development Backlog (Codex)
 
+- [x] 2026-11-20 Figma 3D Box reference and INT-011 CSS perspective controls, feed flow and independent runtime validation.
+
+- [x] 2026-11-18 daily Riff addition, OTP verification INT-010. Feed media, direct experience, nested source dialog and independent fixture verified.
+
 ## Priority P0 — Make the current project demonstrably runnable (first milestone)
 - [x] Generate `package-lock.json` with `npm install` and verify a clean Node 22 LTS install with `npm ci`.
 - [ ] Commit the lockfile after establishing the intended Git root. The archive is untracked under the drive-level `E:/.git` with no commits.

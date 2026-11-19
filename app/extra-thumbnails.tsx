@@ -3,6 +3,8 @@ import { publicPath } from "@/app/public-path";
 export function ExtraThumbnail({id}:{id:string}){
  const t=(s:string)=><span className="mini-txt">{s}</span>;
  switch(id){
+ case 'INT-011': return <div className="mini-tilt">BOX</div>;
+ case 'INT-010': return <img className="atlas-riff-thumb" src={publicPath("/feed/otp-verify.png")} alt="" loading="lazy" />;
  case 'CMP-015': return <div className="riff-carousel-nav"><span>‹</span><span>1 / 3</span><span>›</span></div>;
  case 'INT-004': return <img className="atlas-riff-thumb" src={publicPath("/feed/stack-carousel.png")} alt="" loading="lazy" />;
  case 'INT-005': return <img className="atlas-riff-thumb" src={publicPath("/feed/receipt-printer.png")} alt="" loading="lazy" />;

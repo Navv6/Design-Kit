@@ -26,3 +26,10 @@
 - Checked: offline HTML displays 40 cards, filtering/search/code viewer, steppers, modal open/close, mobile horizontal overflow (none), and syntax transpilation of 45 TSX files.
 - Not checked: actual Next.js build and real GPU runtime of new scenes.
 - Next use case: assemble a portfolio hero, then record which assets require theme/props/registry improvements.
+## 2026-11-18 · Daily Riff expansion
+
+Added an OTP form with local error/success states and a server-verification callback. Original typography and exact spring timing remain visually different from the source. Verification evidence is in docs/VALIDATION.md.
+
+## 2026-11-20 · Perspective Box
+
+Added manual X/Y rotation, reset and surface color controls with the original Figma 3D Box media. The six-face CSS interpretation differs from the original material preset and automatic animation; this is shown in the demo.

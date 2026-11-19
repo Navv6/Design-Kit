@@ -155,5 +155,31 @@
     "assetIds": [
       "MOT-010"
     ]
+  },
+  {
+    "slug": "otp-verify",
+    "title": "인증번호 입력과 결과 반응",
+    "description": "번호를 붙여넣고 확인하면 오류는 흔들림으로, 성공은 순차적인 초록 파동으로 표시됩니다. 데모 코드 123456을 사용하세요. 원본의 문구와 시각 디자인은 Atlas용으로 대체했습니다.",
+    "sourceTitle": "OTP shake and wave · Alejandro Vasquez",
+    "sourceUrl": "https://www.figma.com/riffs/9ccbd3b4-ecdc-40f4-9b1a-fc360292c2d2",
+    "sourceImage": "https://www.figma.com/community/post/9ccbd3b4-ecdc-40f4-9b1a-fc360292c2d2/social-image",
+    "previewImage": "/feed/otp-verify.png",
+    "previewVideo": "/feed/otp-verify.webm",
+    "assetIds": [
+      "INT-010"
+    ]
+  },
+  {
+    "slug": "perspective-box",
+    "title": "육면체 원근 회전",
+    "description": "여섯 면의 육면체를 두 축으로 돌리고 표면 색상을 바꿉니다. 원본 질감과 자동 회전을 CSS 조작으로 대체한 체험입니다.",
+    "sourceTitle": "Figma 3D Box · Hardik Gondhiya",
+    "sourceUrl": "https://www.figma.com/riffs/8aac6753-8de5-4141-9d16-fde11655dc43",
+    "sourceImage": "https://www.figma.com/community/post/8aac6753-8de5-4141-9d16-fde11655dc43/social-image",
+    "previewImage": "/feed/perspective-box.png",
+    "previewVideo": "/feed/perspective-box.webm",
+    "assetIds": [
+      "INT-011"
+    ]
   }
 ]
