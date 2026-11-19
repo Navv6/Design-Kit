@@ -1,5 +1,10 @@
 # Validation Log — NAVV6 Design Atlas
 
+## Daily deployment enabled · 2026-11-20
+
+- Updated the existing daily automation to commit verified changes, push to main, monitor Pages deployment through completion and check the public site in Chrome. Its existing 09:00 daily schedule was retained.
+- Deployed commit `360b3b38dec7b00d0544e836845912192bd93e6f` via [Pages run 44609398168](https://github.com/Navv6/Design-Kit/actions/runs/44609398168). Chrome on the public feed verified both INT-010 and INT-011 video playback, direct experience, nested source/CSS views, instruction clipboard content and dismissal. The OTP catalog image now uses the Pages base path.
+
 ## Daily Riff addition · 2026-11-20
 
 - Reviewed Recent in Chrome. Orbit Avatars overlaps existing orbit behavior. Selected [Figma 3D Box by Hardik Gondhiya](https://www.figma.com/riffs/8aac6753-8de5-4141-9d16-fde11655dc43), whose source description invites changing its six layers and effect preset. Original share image and silent source-video capture are stored at `public/feed/perspective-box.{png,webm}`.
