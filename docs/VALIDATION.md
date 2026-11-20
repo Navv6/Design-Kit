@@ -5,6 +5,7 @@
 - Added [Save to shortlist by Hima Sruthi](https://www.figma.com/riffs/3c479349-ac8f-44ae-8ff6-c25dbfbb807d). Public original share image and silent original video capture are stored in `public/feed/saved-card-transfer.{png,webm}`.
 - INT-012 provides actual saved-item membership, count, filtered list, removal, keyboard tabs and a card-to-tab flight. Its copy and visual style are substituted and its state is in memory, with an onChange callback for integration.
 - Static checks, Pages export with `ATLAS_PAGES_EXPORT=1 NEXT_PUBLIC_BASE_PATH=/Design-Kit`, and typecheck passed with 15 posts and 76 assets. Chrome checked source-video playback, save/remove/list behavior, nested source/CSS and clipboard instruction content at 375/768/1440px. A separate Next.js build and runtime verified the registered two-file component with reduced motion.
+- Deployed commit `139b3f30b5a96d4d260ac3a9e8d54c9744e88ed4` via [Pages run 44717966178](https://github.com/Navv6/Design-Kit/actions/runs/44717966178). Chrome verified video time progression, saved membership/count/removal, nested source/CSS, instruction clipboard content and modal dismissal on the [public feed](https://navv6.github.io/Design-Kit/feed/) at 375/768/1440px. The first playback check timed out because the reused browser retained reduced-motion emulation; explicit no-preference emulation passed. Reduced-motion behavior was separately verified in the standalone fixture.
 
 ## Daily deployment enabled · 2026-11-20
 
