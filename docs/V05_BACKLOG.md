@@ -1,5 +1,7 @@
 # v0.5 Development Backlog (Codex)
 
+- [x] 2026-11-20 saved-card transfer INT-012, actual shortlist and nested ASSET flow validated.
+
 - [x] 2026-11-20 Figma 3D Box reference and INT-011 CSS perspective controls, feed flow and independent runtime validation.
 
 - [x] 2026-11-18 daily Riff addition, OTP verification INT-010. Feed media, direct experience, nested source dialog and independent fixture verified.

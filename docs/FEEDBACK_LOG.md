@@ -33,3 +33,7 @@ Added an OTP form with local error/success states and a server-verification call
 ## 2026-11-20 · Perspective Box
 
 Added manual X/Y rotation, reset and surface color controls with the original Figma 3D Box media. The six-face CSS interpretation differs from the original material preset and automatic animation; this is shown in the demo.
+## 2026-11-20 · Saved card transfer
+
+Added actual saved membership and count feedback linked to the card flight. The demo uses substitute content and keeps saved IDs in memory.
+

@@ -1,5 +1,11 @@
 # Validation Log — NAVV6 Design Atlas
 
+## Daily Riff addition · 2026-11-20 evening
+
+- Added [Save to shortlist by Hima Sruthi](https://www.figma.com/riffs/3c479349-ac8f-44ae-8ff6-c25dbfbb807d). Public original share image and silent original video capture are stored in `public/feed/saved-card-transfer.{png,webm}`.
+- INT-012 provides actual saved-item membership, count, filtered list, removal, keyboard tabs and a card-to-tab flight. Its copy and visual style are substituted and its state is in memory, with an onChange callback for integration.
+- Static checks, Pages export with `ATLAS_PAGES_EXPORT=1 NEXT_PUBLIC_BASE_PATH=/Design-Kit`, and typecheck passed with 15 posts and 76 assets. Chrome checked source-video playback, save/remove/list behavior, nested source/CSS and clipboard instruction content at 375/768/1440px. A separate Next.js build and runtime verified the registered two-file component with reduced motion.
+
 ## Daily deployment enabled · 2026-11-20
 
 - Updated the existing daily automation to commit verified changes, push to main, monitor Pages deployment through completion and check the public site in Chrome. Its existing 09:00 daily schedule was retained.

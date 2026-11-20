@@ -5,6 +5,7 @@ import { MagneticDemo } from "@/components/atlas/magnetic-demo";
 import { RiffPreview } from "../riff-previews";
 
 const demos = new Map<string, { Demo: React.ComponentType }>([
+  ["saved-card-transfer", { Demo: () => createElement(RiffPreview, { id: "INT-012" }) }],
   ["perspective-box", { Demo: () => createElement(RiffPreview, { id: "INT-011" }) }],
   ["otp-verify", { Demo: () => createElement(RiffPreview, { id: "INT-010" }) }],
   ["stack-carousel", { Demo: () => createElement(RiffPreview, { id: "INT-004" }) }],

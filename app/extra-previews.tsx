@@ -76,6 +76,7 @@ export function ExtraPreview({ id }: { id: string }) {
     case "INT-001": return <CommandPalette />;
     case "INT-002": return <SpotlightCard />;
     case "INT-003": return <MagneticDemo />;
+    case "INT-012":
     case "INT-011":
     case "INT-010":
     case "CMP-015":

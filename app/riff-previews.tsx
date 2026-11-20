@@ -1,4 +1,5 @@
 "use client";
+import { SavedCardTransfer } from "@/components/atlas/saved-card-transfer";
 import { PerspectiveBox } from "@/components/atlas/perspective-box";
 import { OtpVerify } from "@/components/atlas/otp-verify";
 import { publicPath } from "@/app/public-path";
@@ -44,6 +45,11 @@ function BookmarkPreview() {
 }
 
 const riffPreviews: Partial<Record<string, () => React.JSX.Element>> = {
+  "INT-012": () => <SavedCardTransfer items={[
+    { id: "designer", title: "프로덕트 디자이너", description: "주 3일 원격 · 서울" },
+    { id: "engineer", title: "프론트엔드 엔지니어", description: "정규직 · 부산" },
+    { id: "researcher", title: "UX 리서처", description: "계약직 · 원격" },
+  ]} />,
   "INT-011": () => <PerspectiveBox />,
   "INT-010": () => <OtpVerify />,
   "CMP-015": CarouselNavigationPreview,

@@ -181,5 +181,18 @@
     "assetIds": [
       "INT-011"
     ]
+  },
+  {
+    "slug": "saved-card-transfer",
+    "title": "카드 저장과 목록 전환",
+    "description": "저장 버튼을 누르면 작은 카드가 저장됨 탭으로 이동하고 개수와 실제 목록이 바뀝니다. 원본의 채용 문구와 시각 디자인은 Atlas용으로 대체했습니다. 저장 상태는 현재 체험 동안 유지됩니다.",
+    "sourceTitle": "Save to shortlist · Hima Sruthi",
+    "sourceUrl": "https://www.figma.com/riffs/3c479349-ac8f-44ae-8ff6-c25dbfbb807d",
+    "sourceImage": "https://www.figma.com/community/post/3c479349-ac8f-44ae-8ff6-c25dbfbb807d/social-image",
+    "previewImage": "/feed/saved-card-transfer.png",
+    "previewVideo": "/feed/saved-card-transfer.webm",
+    "assetIds": [
+      "INT-012"
+    ]
   }
 ]

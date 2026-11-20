@@ -2331,5 +2331,34 @@
       "tryIt": "가로·세로 회전과 표면 색상을 바꾼 뒤 초기화하세요.",
       "reuse": "PerspectiveBox와 CSS를 함께 가져오세요. 여섯 면은 CSS transform으로 표현됩니다. 원본의 질감과 자동 회전에는 차이가 있습니다."
     }
+  },
+  {
+    "id": "INT-012",
+    "slug": "saved-card-transfer",
+    "name": "Saved Card Transfer",
+    "nameKo": "카드 저장과 목록 전환",
+    "category": "interaction",
+    "description": "저장한 카드의 축소 복사본이 저장 탭으로 이동하고 목록과 개수가 갱신됩니다.",
+    "tags": [
+      "save",
+      "bookmark",
+      "transfer"
+    ],
+    "useWhen": [
+      "검색 결과에서 저장 목록의 위치를 시각적으로 알려줄 때"
+    ],
+    "avoidWhen": [
+      "대량 선택과 일괄 저장이 필요한 화면"
+    ],
+    "dependencies": [],
+    "source": "components/atlas/saved-card-transfer.tsx",
+    "complexity": "medium",
+    "performance": "low",
+    "status": "ready",
+    "componentName": "SavedCardTransfer",
+    "guide": {
+      "tryIt": "항목을 저장한 뒤 저장됨 탭을 여세요. 해당 항목만 남고, 저장 해제로 목록에서 제거할 수 있습니다.",
+      "reuse": "items에 고유 id, title, description을 전달하고 onChange에서 저장 ID 배열을 받으세요. 상태는 메모리에서 유지됩니다. 원본 문구와 디자인은 Atlas용으로 대체했습니다."
+    }
   }
 ]

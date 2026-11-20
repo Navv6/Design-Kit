@@ -1,0 +1,15 @@
+.saved-transfer { box-sizing: border-box; width: 100%; min-width: 0; padding: clamp(14px,3vw,26px); background: #f1f0eb; color: #20372c; font: 15px/1.5 system-ui,sans-serif; }
+.saved-transfer * { box-sizing: border-box; }
+.saved-transfer-tabs { display: flex; gap: 8px; margin-bottom: 18px; }
+.saved-transfer button { font: inherit; color: inherit; border: 1px solid #b5c2b6; background: #fffefa; padding: 8px 12px; border-radius: 9px; cursor: pointer; }
+.saved-transfer :focus-visible { outline: 3px solid #397557; outline-offset: 2px; }
+.saved-transfer-tabs [aria-selected="true"] { background: #254d39; color: #fff; border-color: #254d39; }
+.saved-transfer-tabs span { margin-left: 4px; font-variant-numeric: tabular-nums; }
+.saved-transfer-card { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px; margin-bottom: 10px; border: 1px solid #c5cdc2; border-radius: 12px; background: #fffefa; }
+.saved-transfer-card h3 { margin: 0; font-size: 17px; }
+.saved-transfer-card p { margin: 4px 0 0; font-size: 13px; overflow-wrap: anywhere; }
+.saved-transfer-card button { flex-shrink: 0; }
+.saved-transfer > [role="status"] { min-height: 23px; margin-bottom: 0; font-size: 13px; }
+.saved-transfer-flight { position: fixed; z-index: 50; pointer-events: none; width: 90px; padding: 10px; border-radius: 8px; background: #254d39; color: #fff; font: 12px system-ui,sans-serif; transform: translate(-50%,-50%); animation: saved-transfer-flight .6s cubic-bezier(.3,.1,.2,1) both; }
+@keyframes saved-transfer-flight { to { transform: translate(calc(-50% + var(--flight-x)),calc(-50% + var(--flight-y))) scale(.2); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .saved-transfer-flight { display: none; animation: none; } }

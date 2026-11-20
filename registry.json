@@ -1242,6 +1242,22 @@
           "target": "components/atlas/perspective-box.css"
         }
       ]
+    },
+    {
+      "name": "atlas-saved-card-transfer",
+      "type": "registry:component",
+      "title": "Saved Card Transfer",
+      "files": [
+        {
+          "path": "components/atlas/saved-card-transfer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/atlas/saved-card-transfer.css",
+          "type": "registry:file",
+          "target": "components/atlas/saved-card-transfer.css"
+        }
+      ]
     }
   ]
 }
